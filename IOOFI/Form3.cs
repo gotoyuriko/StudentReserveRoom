@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-<<<<<<< chris-branch
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -37,7 +37,8 @@ namespace WindowsFormsApp1
         {
 
         }
-=======
->>>>>>> main
+
     }
 }
+
+
