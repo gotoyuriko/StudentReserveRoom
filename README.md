@@ -228,8 +228,78 @@ Create ssh private-key and public key (Rlogin)
 ```
 ssh-keygen
 ```
+```
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/vagrant/.ssh/id_rsa):
+```
+Just EnterKey
+
+```
+Enter passphrase (empty for no passphrase):
+```
+**Remember your Password***
+
 Check ssh private-key and public key (Rlogin)
 ```
 ls ~/.ssh
+```
+Register public key to Github
+```
+cat  ~/.ssh/id_rsa.pub
+```
+In Github, go to setting => SSH and GPG keys => New SSH Keys
+Title
+```
+ubuntu@ubuntu-bionic
+```
+Key
+```
+public
+```
+
+### Clone from Repo
+```
+cd workspace
+git clone git@github.com:blahblah blah
+```
+```
+Are you sure you want to continue connecting (yes/no)?
+```
+yes
+```
+Enter passphrase for key ‘/home/vagrant/.ssh/id_rsa’
+```
+enter private key password, then if successful, done cloning
+
+### Config you info
+```
+cd ~\vagrant\ubuntu64_18
+vagrant up
+rlogin
+```
+```
+git config --global user.name "your name"
+git config --global user.email youremail@email
+git config --global core.editor "vim"
+```
+Check your config
+```
+git config -l
+```
+
+
+### Config Git Command
+**Important Command **
+After you change
+```
+git add .
+git commit -m "comment what to change"
+git push -u origin main
+```
+And you will update from local file to github
+
+when you pull from github to local file
+```
+git pull origin master
 ```
 
