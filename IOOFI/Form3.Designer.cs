@@ -29,6 +29,7 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
+
             this.TitleLbl = new System.Windows.Forms.Label();
             this.SignupLbl = new System.Windows.Forms.Label();
             this.UsernameTxtbox = new System.Windows.Forms.TextBox();
@@ -173,5 +174,14 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label PasswordLbl;
         private System.Windows.Forms.Label ConfirmpassLbl;
         private System.Windows.Forms.Button LoginBtn;
+
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form3";
+        }
+
+        #endregion
+
     }
 }
