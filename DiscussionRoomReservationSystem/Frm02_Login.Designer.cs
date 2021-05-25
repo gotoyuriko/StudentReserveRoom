@@ -35,7 +35,7 @@ namespace DiscussionRoomReservationSystem
             this.PasswordLbl = new System.Windows.Forms.Label();
             this.UsernameTxtbox = new System.Windows.Forms.TextBox();
             this.PasswordTxtbox = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.LoginBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TitleLbl
@@ -104,17 +104,17 @@ namespace DiscussionRoomReservationSystem
             this.PasswordTxtbox.TabIndex = 5;
             this.PasswordTxtbox.Text = "Required Field";
             // 
-            // button1
+            // LoginBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.button1.Location = new System.Drawing.Point(317, 344);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 43);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Log In";
-            this.button1.UseVisualStyleBackColor = false;
+            this.LoginBtn.BackColor = System.Drawing.Color.White;
+            this.LoginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginBtn.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.LoginBtn.Location = new System.Drawing.Point(317, 344);
+            this.LoginBtn.Name = "LoginBtn";
+            this.LoginBtn.Size = new System.Drawing.Size(132, 43);
+            this.LoginBtn.TabIndex = 6;
+            this.LoginBtn.Text = "Log In";
+            this.LoginBtn.UseVisualStyleBackColor = false;
             // 
             // Frm02_Login
             // 
@@ -122,7 +122,7 @@ namespace DiscussionRoomReservationSystem
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.PasswordTxtbox);
             this.Controls.Add(this.UsernameTxtbox);
             this.Controls.Add(this.PasswordLbl);
@@ -144,6 +144,6 @@ namespace DiscussionRoomReservationSystem
         private System.Windows.Forms.Label PasswordLbl;
         private System.Windows.Forms.TextBox UsernameTxtbox;
         private System.Windows.Forms.TextBox PasswordTxtbox;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button LoginBtn;
     }
 }
