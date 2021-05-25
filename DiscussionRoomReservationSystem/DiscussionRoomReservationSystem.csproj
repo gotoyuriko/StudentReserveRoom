@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38ADD7C4-F34F-4C88-B532-D3D7D4B8E1D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DiscussionRoomReservationSystem</RootNamespace>
+    <AssemblyName>DiscussionRoomReservationSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm10_ChangeReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm10_ChangeReservation.Designer.cs">
+      <DependentUpon>Frm10_ChangeReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm01_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm01_Home.Designer.cs">
+      <DependentUpon>Frm01_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm02_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm02_Login.Designer.cs">
+      <DependentUpon>Frm02_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm03_SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm03_SignUp.Designer.cs">
+      <DependentUpon>Frm03_SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm04_StudentMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm04_StudentMain.Designer.cs">
+      <DependentUpon>Frm04_StudentMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm05_StudentReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm05_StudentReservation.Designer.cs">
+      <DependentUpon>Frm05_StudentReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm06_Notification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm06_Notification.Designer.cs">
+      <DependentUpon>Frm06_Notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm07_NoReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm07_NoReservation.Designer.cs">
+      <DependentUpon>Frm07_NoReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm08_YourReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm08_YourReservation.Designer.cs">
+      <DependentUpon>Frm08_YourReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm09_CheckYourReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm09_CheckYourReservation.Designer.cs">
+      <DependentUpon>Frm09_CheckYourReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm11_DoneStudentReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm11_DoneStudentReservation.Designer.cs">
+      <DependentUpon>Frm11_DoneStudentReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm12_DoneChangeReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm12_DoneChangeReservation.Designer.cs">
+      <DependentUpon>Frm12_DoneChangeReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm13_DoneCancellation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm13_DoneCancellation.Designer.cs">
+      <DependentUpon>Frm13_DoneCancellation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm14_AdminMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm14_AdminMain.Designer.cs">
+      <DependentUpon>Frm14_AdminMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm15_PendingRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm15_PendingRequest.Designer.cs">
+      <DependentUpon>Frm15_PendingRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm16_DailyReport_Selection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm16_DailyReport_Selection.Designer.cs">
+      <DependentUpon>Frm16_DailyReport_Selection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm17_DailyReport_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm17_DailyReport_Detail.Designer.cs">
+      <DependentUpon>Frm17_DailyReport_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm18_MonthlyReport_Detail1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm18_MonthlyReport_Detail1.Designer.cs">
+      <DependentUpon>Frm18_MonthlyReport_Detail1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frrm19_MonthlyReport_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frrm19_MonthlyReport_Detail.Designer.cs">
+      <DependentUpon>Frrm19_MonthlyReport_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
