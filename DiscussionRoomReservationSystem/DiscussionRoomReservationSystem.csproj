@@ -171,6 +171,12 @@
     <EmbeddedResource Include="Frm10_ChangeReservation.resx">
       <DependentUpon>Frm10_ChangeReservation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm13_DoneCancellation.resx">
+      <DependentUpon>Frm13_DoneCancellation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm16_DailyReport_Selection.resx">
+      <DependentUpon>Frm16_DailyReport_Selection.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
