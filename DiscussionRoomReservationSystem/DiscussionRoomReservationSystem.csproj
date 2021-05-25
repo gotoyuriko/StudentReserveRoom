@@ -162,14 +162,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Frm01_Home.resx">
-      <DependentUpon>Frm01_Home.cs</DependentUpon>
+    <EmbeddedResource Include="Frm02_Login.resx">
+      <DependentUpon>Frm02_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm04_StudentMain.resx">
-      <DependentUpon>Frm04_StudentMain.cs</DependentUpon>
+    <EmbeddedResource Include="Frm05_StudentReservation.resx">
+      <DependentUpon>Frm05_StudentReservation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm10_ChangeReservation.resx">
-      <DependentUpon>Frm10_ChangeReservation.cs</DependentUpon>
+    <EmbeddedResource Include="Frm08_YourReservation.resx">
+      <DependentUpon>Frm08_YourReservation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
