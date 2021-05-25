@@ -275,7 +275,7 @@ namespace DiscussionRoomReservationSystem
             this.Controls.Add(this.AmberGBox);
             this.Controls.Add(this.TitleLabl);
             this.Name = "Frm04_StudentMain";
-            this.Text = "Student Main";
+            this.Text = "Student Main Menu";
             this.Load += new System.EventHandler(this.Frm04_StudentMain_Load);
             this.AmberGBox.ResumeLayout(false);
             this.AmberGBox.PerformLayout();
