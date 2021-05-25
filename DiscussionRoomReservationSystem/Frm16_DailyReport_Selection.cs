@@ -16,5 +16,15 @@ namespace DiscussionRoomReservationSystem
         {
             InitializeComponent();
         }
+
+        private void AmberRoomsLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BlackThronRoomsLbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
