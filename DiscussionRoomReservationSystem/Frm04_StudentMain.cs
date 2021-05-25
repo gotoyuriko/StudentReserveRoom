@@ -16,5 +16,20 @@ namespace DiscussionRoomReservationSystem
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Frm04_StudentMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

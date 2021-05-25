@@ -29,12 +29,52 @@ namespace DiscussionRoomReservationSystem
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.TitleLbl = new System.Windows.Forms.Label();
+            this.ConfirmBtn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // TitleLbl
+            // 
+            this.TitleLbl.AutoSize = true;
+            this.TitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.TitleLbl.Location = new System.Drawing.Point(231, 186);
+            this.TitleLbl.Name = "TitleLbl";
+            this.TitleLbl.Size = new System.Drawing.Size(338, 32);
+            this.TitleLbl.TabIndex = 11;
+            this.TitleLbl.Text = "Your room is reserved !!";
+            this.TitleLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // ConfirmBtn
+            // 
+            this.ConfirmBtn.BackColor = System.Drawing.Color.White;
+            this.ConfirmBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConfirmBtn.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.ConfirmBtn.Location = new System.Drawing.Point(309, 356);
+            this.ConfirmBtn.Name = "ConfirmBtn";
+            this.ConfirmBtn.Size = new System.Drawing.Size(163, 52);
+            this.ConfirmBtn.TabIndex = 12;
+            this.ConfirmBtn.Text = "Back to Menu";
+            this.ConfirmBtn.UseVisualStyleBackColor = false;
+            // 
+            // Frm11_DoneStudentReservation
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ConfirmBtn);
+            this.Controls.Add(this.TitleLbl);
+            this.Name = "Frm11_DoneStudentReservation";
             this.Text = "Frm11_DoneStudentReservation";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label TitleLbl;
+        private System.Windows.Forms.Button ConfirmBtn;
     }
 }
