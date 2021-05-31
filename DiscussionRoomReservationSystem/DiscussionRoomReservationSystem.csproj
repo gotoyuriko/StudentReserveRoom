@@ -88,12 +88,6 @@
     <Compile Include="Frm06_Notification.Designer.cs">
       <DependentUpon>Frm06_Notification.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm07_NoReservation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm07_NoReservation.Designer.cs">
-      <DependentUpon>Frm07_NoReservation.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frm08_YourReservation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,20 +156,41 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm02_Login.resx">
+      <DependentUpon>Frm02_Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm03_SignUp.resx">
       <DependentUpon>Frm03_SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm04_StudentMain.resx">
+      <DependentUpon>Frm04_StudentMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm05_StudentReservation.resx">
+      <DependentUpon>Frm05_StudentReservation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm06_Notification.resx">
       <DependentUpon>Frm06_Notification.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm08_YourReservation.resx">
+      <DependentUpon>Frm08_YourReservation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm09_CheckYourReservation.resx">
       <DependentUpon>Frm09_CheckYourReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm11_DoneStudentReservation.resx">
+      <DependentUpon>Frm11_DoneStudentReservation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm12_DoneChangeReservation.resx">
       <DependentUpon>Frm12_DoneChangeReservation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm14_AdminMain.resx">
+      <DependentUpon>Frm14_AdminMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm15_PendingRequest.resx">
       <DependentUpon>Frm15_PendingRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm17_DailyReport_Detail.resx">
+      <DependentUpon>Frm17_DailyReport_Detail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm18_MonthlyReport_Detail1.resx">
       <DependentUpon>Frm18_MonthlyReport_Detail1.cs</DependentUpon>
@@ -191,6 +206,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -204,6 +220,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
