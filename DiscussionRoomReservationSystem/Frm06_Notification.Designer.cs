@@ -56,7 +56,8 @@ namespace DiscussionRoomReservationSystem
             this.FirstTitleLbl.AutoSize = true;
             this.FirstTitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FirstTitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.FirstTitleLbl.Location = new System.Drawing.Point(8, 18);
+            this.FirstTitleLbl.Location = new System.Drawing.Point(11, 21);
+            this.FirstTitleLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FirstTitleLbl.Name = "FirstTitleLbl";
             this.FirstTitleLbl.Size = new System.Drawing.Size(445, 20);
             this.FirstTitleLbl.TabIndex = 0;
@@ -67,7 +68,8 @@ namespace DiscussionRoomReservationSystem
             this.FirstDateLbl.AutoSize = true;
             this.FirstDateLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FirstDateLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.FirstDateLbl.Location = new System.Drawing.Point(478, 18);
+            this.FirstDateLbl.Location = new System.Drawing.Point(497, 18);
+            this.FirstDateLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FirstDateLbl.Name = "FirstDateLbl";
             this.FirstDateLbl.Size = new System.Drawing.Size(90, 17);
             this.FirstDateLbl.TabIndex = 1;
@@ -77,7 +79,8 @@ namespace DiscussionRoomReservationSystem
             // 
             this.FirstContentLbl.AutoSize = true;
             this.FirstContentLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FirstContentLbl.Location = new System.Drawing.Point(10, 43);
+            this.FirstContentLbl.Location = new System.Drawing.Point(13, 50);
+            this.FirstContentLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FirstContentLbl.Name = "FirstContentLbl";
             this.FirstContentLbl.Size = new System.Drawing.Size(423, 24);
             this.FirstContentLbl.TabIndex = 2;
@@ -90,9 +93,11 @@ namespace DiscussionRoomReservationSystem
             this.FirstNotifGBox.Controls.Add(this.FirstContentLbl);
             this.FirstNotifGBox.Controls.Add(this.FirstDateLbl);
             this.FirstNotifGBox.Controls.Add(this.FirstTitleLbl);
-            this.FirstNotifGBox.Location = new System.Drawing.Point(87, 12);
+            this.FirstNotifGBox.Location = new System.Drawing.Point(85, 30);
+            this.FirstNotifGBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.FirstNotifGBox.Name = "FirstNotifGBox";
-            this.FirstNotifGBox.Size = new System.Drawing.Size(587, 78);
+            this.FirstNotifGBox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.FirstNotifGBox.Size = new System.Drawing.Size(623, 90);
             this.FirstNotifGBox.TabIndex = 5;
             this.FirstNotifGBox.TabStop = false;
             this.FirstNotifGBox.Enter += new System.EventHandler(this.groupBox1_Enter);
@@ -102,9 +107,11 @@ namespace DiscussionRoomReservationSystem
             this.SecondNotifGbox.Controls.Add(this.SecondContentLbl);
             this.SecondNotifGbox.Controls.Add(this.SecondDateLbl);
             this.SecondNotifGbox.Controls.Add(this.SecondTitleLbl);
-            this.SecondNotifGbox.Location = new System.Drawing.Point(87, 96);
+            this.SecondNotifGbox.Location = new System.Drawing.Point(85, 127);
+            this.SecondNotifGbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.SecondNotifGbox.Name = "SecondNotifGbox";
-            this.SecondNotifGbox.Size = new System.Drawing.Size(587, 78);
+            this.SecondNotifGbox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.SecondNotifGbox.Size = new System.Drawing.Size(623, 90);
             this.SecondNotifGbox.TabIndex = 6;
             this.SecondNotifGbox.TabStop = false;
             // 
@@ -112,7 +119,8 @@ namespace DiscussionRoomReservationSystem
             // 
             this.SecondContentLbl.AutoSize = true;
             this.SecondContentLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SecondContentLbl.Location = new System.Drawing.Point(10, 43);
+            this.SecondContentLbl.Location = new System.Drawing.Point(13, 50);
+            this.SecondContentLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SecondContentLbl.Name = "SecondContentLbl";
             this.SecondContentLbl.Size = new System.Drawing.Size(423, 24);
             this.SecondContentLbl.TabIndex = 2;
@@ -125,7 +133,8 @@ namespace DiscussionRoomReservationSystem
             this.SecondDateLbl.AutoSize = true;
             this.SecondDateLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SecondDateLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.SecondDateLbl.Location = new System.Drawing.Point(478, 18);
+            this.SecondDateLbl.Location = new System.Drawing.Point(497, 18);
+            this.SecondDateLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SecondDateLbl.Name = "SecondDateLbl";
             this.SecondDateLbl.Size = new System.Drawing.Size(90, 17);
             this.SecondDateLbl.TabIndex = 1;
@@ -136,7 +145,8 @@ namespace DiscussionRoomReservationSystem
             this.SecondTitleLbl.AutoSize = true;
             this.SecondTitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SecondTitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.SecondTitleLbl.Location = new System.Drawing.Point(8, 18);
+            this.SecondTitleLbl.Location = new System.Drawing.Point(11, 21);
+            this.SecondTitleLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SecondTitleLbl.Name = "SecondTitleLbl";
             this.SecondTitleLbl.Size = new System.Drawing.Size(445, 20);
             this.SecondTitleLbl.TabIndex = 0;
@@ -147,9 +157,11 @@ namespace DiscussionRoomReservationSystem
             this.ThirdNotifGbox.Controls.Add(this.ThirdContentLbl);
             this.ThirdNotifGbox.Controls.Add(this.ThirdDateLbl);
             this.ThirdNotifGbox.Controls.Add(this.ThirdTitleLbl);
-            this.ThirdNotifGbox.Location = new System.Drawing.Point(87, 180);
+            this.ThirdNotifGbox.Location = new System.Drawing.Point(85, 224);
+            this.ThirdNotifGbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ThirdNotifGbox.Name = "ThirdNotifGbox";
-            this.ThirdNotifGbox.Size = new System.Drawing.Size(587, 78);
+            this.ThirdNotifGbox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.ThirdNotifGbox.Size = new System.Drawing.Size(623, 90);
             this.ThirdNotifGbox.TabIndex = 7;
             this.ThirdNotifGbox.TabStop = false;
             // 
@@ -157,7 +169,8 @@ namespace DiscussionRoomReservationSystem
             // 
             this.ThirdContentLbl.AutoSize = true;
             this.ThirdContentLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ThirdContentLbl.Location = new System.Drawing.Point(10, 43);
+            this.ThirdContentLbl.Location = new System.Drawing.Point(13, 50);
+            this.ThirdContentLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ThirdContentLbl.Name = "ThirdContentLbl";
             this.ThirdContentLbl.Size = new System.Drawing.Size(423, 24);
             this.ThirdContentLbl.TabIndex = 2;
@@ -170,18 +183,21 @@ namespace DiscussionRoomReservationSystem
             this.ThirdDateLbl.AutoSize = true;
             this.ThirdDateLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ThirdDateLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.ThirdDateLbl.Location = new System.Drawing.Point(478, 18);
+            this.ThirdDateLbl.Location = new System.Drawing.Point(497, 18);
+            this.ThirdDateLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ThirdDateLbl.Name = "ThirdDateLbl";
             this.ThirdDateLbl.Size = new System.Drawing.Size(90, 17);
             this.ThirdDateLbl.TabIndex = 1;
             this.ThirdDateLbl.Text = "2021/05/01";
+            this.ThirdDateLbl.Click += new System.EventHandler(this.ThirdDateLbl_Click);
             // 
             // ThirdTitleLbl
             // 
             this.ThirdTitleLbl.AutoSize = true;
             this.ThirdTitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ThirdTitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.ThirdTitleLbl.Location = new System.Drawing.Point(7, 18);
+            this.ThirdTitleLbl.Location = new System.Drawing.Point(9, 21);
+            this.ThirdTitleLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ThirdTitleLbl.Name = "ThirdTitleLbl";
             this.ThirdTitleLbl.Size = new System.Drawing.Size(445, 20);
             this.ThirdTitleLbl.TabIndex = 0;
@@ -192,9 +208,11 @@ namespace DiscussionRoomReservationSystem
             this.FourthNotifGbox.Controls.Add(this.FourthContentLbl);
             this.FourthNotifGbox.Controls.Add(this.FourthDateLbl);
             this.FourthNotifGbox.Controls.Add(this.FourthTitleLbl);
-            this.FourthNotifGbox.Location = new System.Drawing.Point(87, 264);
+            this.FourthNotifGbox.Location = new System.Drawing.Point(85, 321);
+            this.FourthNotifGbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.FourthNotifGbox.Name = "FourthNotifGbox";
-            this.FourthNotifGbox.Size = new System.Drawing.Size(587, 78);
+            this.FourthNotifGbox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.FourthNotifGbox.Size = new System.Drawing.Size(623, 90);
             this.FourthNotifGbox.TabIndex = 8;
             this.FourthNotifGbox.TabStop = false;
             // 
@@ -202,7 +220,8 @@ namespace DiscussionRoomReservationSystem
             // 
             this.FourthContentLbl.AutoSize = true;
             this.FourthContentLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FourthContentLbl.Location = new System.Drawing.Point(10, 43);
+            this.FourthContentLbl.Location = new System.Drawing.Point(13, 50);
+            this.FourthContentLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FourthContentLbl.Name = "FourthContentLbl";
             this.FourthContentLbl.Size = new System.Drawing.Size(423, 24);
             this.FourthContentLbl.TabIndex = 2;
@@ -215,7 +234,8 @@ namespace DiscussionRoomReservationSystem
             this.FourthDateLbl.AutoSize = true;
             this.FourthDateLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FourthDateLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.FourthDateLbl.Location = new System.Drawing.Point(478, 18);
+            this.FourthDateLbl.Location = new System.Drawing.Point(497, 21);
+            this.FourthDateLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FourthDateLbl.Name = "FourthDateLbl";
             this.FourthDateLbl.Size = new System.Drawing.Size(90, 17);
             this.FourthDateLbl.TabIndex = 1;
@@ -226,7 +246,8 @@ namespace DiscussionRoomReservationSystem
             this.FourthTitleLbl.AutoSize = true;
             this.FourthTitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FourthTitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.FourthTitleLbl.Location = new System.Drawing.Point(8, 18);
+            this.FourthTitleLbl.Location = new System.Drawing.Point(11, 21);
+            this.FourthTitleLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FourthTitleLbl.Name = "FourthTitleLbl";
             this.FourthTitleLbl.Size = new System.Drawing.Size(445, 20);
             this.FourthTitleLbl.TabIndex = 0;
@@ -234,13 +255,15 @@ namespace DiscussionRoomReservationSystem
             // 
             // Frm06_Notification
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.FourthNotifGbox);
             this.Controls.Add(this.ThirdNotifGbox);
             this.Controls.Add(this.SecondNotifGbox);
             this.Controls.Add(this.FirstNotifGBox);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Frm06_Notification";
             this.Text = "Frm6_Notification";
             this.FirstNotifGBox.ResumeLayout(false);

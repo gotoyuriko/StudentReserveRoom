@@ -53,7 +53,8 @@ namespace DiscussionRoomReservationSystem
             this.TitleLbl.AutoSize = true;
             this.TitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.TitleLbl.Location = new System.Drawing.Point(272, 22);
+            this.TitleLbl.Location = new System.Drawing.Point(121, 9);
+            this.TitleLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TitleLbl.Name = "TitleLbl";
             this.TitleLbl.Size = new System.Drawing.Size(249, 32);
             this.TitleLbl.TabIndex = 4;
@@ -64,18 +65,21 @@ namespace DiscussionRoomReservationSystem
             this.Request1Lbl.AutoSize = true;
             this.Request1Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Request1Lbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.Request1Lbl.Location = new System.Drawing.Point(165, 18);
+            this.Request1Lbl.Location = new System.Drawing.Point(106, 18);
+            this.Request1Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Request1Lbl.Name = "Request1Lbl";
             this.Request1Lbl.Size = new System.Drawing.Size(153, 20);
             this.Request1Lbl.TabIndex = 5;
             this.Request1Lbl.Text = "Request #UserID";
+            this.Request1Lbl.Click += new System.EventHandler(this.Request1Lbl_Click);
             // 
             // Details1Lbl
             // 
             this.Details1Lbl.AutoSize = true;
             this.Details1Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Details1Lbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.Details1Lbl.Location = new System.Drawing.Point(32, 59);
+            this.Details1Lbl.Location = new System.Drawing.Point(43, 68);
+            this.Details1Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Details1Lbl.Name = "Details1Lbl";
             this.Details1Lbl.Size = new System.Drawing.Size(178, 20);
             this.Details1Lbl.TabIndex = 6;
@@ -86,7 +90,8 @@ namespace DiscussionRoomReservationSystem
             this.From1Lbl.AutoSize = true;
             this.From1Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.From1Lbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.From1Lbl.Location = new System.Drawing.Point(32, 94);
+            this.From1Lbl.Location = new System.Drawing.Point(43, 108);
+            this.From1Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.From1Lbl.Name = "From1Lbl";
             this.From1Lbl.Size = new System.Drawing.Size(53, 20);
             this.From1Lbl.TabIndex = 7;
@@ -97,7 +102,8 @@ namespace DiscussionRoomReservationSystem
             this.To1Lbl.AutoSize = true;
             this.To1Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.To1Lbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.To1Lbl.Location = new System.Drawing.Point(32, 129);
+            this.To1Lbl.Location = new System.Drawing.Point(43, 149);
+            this.To1Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.To1Lbl.Name = "To1Lbl";
             this.To1Lbl.Size = new System.Drawing.Size(33, 20);
             this.To1Lbl.TabIndex = 8;
@@ -109,9 +115,11 @@ namespace DiscussionRoomReservationSystem
             this.Request1Gbox.Controls.Add(this.From1Lbl);
             this.Request1Gbox.Controls.Add(this.Details1Lbl);
             this.Request1Gbox.Controls.Add(this.Request1Lbl);
-            this.Request1Gbox.Location = new System.Drawing.Point(108, 68);
+            this.Request1Gbox.Location = new System.Drawing.Point(60, 44);
+            this.Request1Gbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Request1Gbox.Name = "Request1Gbox";
-            this.Request1Gbox.Size = new System.Drawing.Size(470, 166);
+            this.Request1Gbox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Request1Gbox.Size = new System.Drawing.Size(365, 192);
             this.Request1Gbox.TabIndex = 9;
             this.Request1Gbox.TabStop = false;
             // 
@@ -120,9 +128,10 @@ namespace DiscussionRoomReservationSystem
             this.Approve1Btn.BackColor = System.Drawing.Color.Chartreuse;
             this.Approve1Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Approve1Btn.ForeColor = System.Drawing.Color.Ivory;
-            this.Approve1Btn.Location = new System.Drawing.Point(605, 68);
+            this.Approve1Btn.Location = new System.Drawing.Point(448, 76);
+            this.Approve1Btn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Approve1Btn.Name = "Approve1Btn";
-            this.Approve1Btn.Size = new System.Drawing.Size(171, 61);
+            this.Approve1Btn.Size = new System.Drawing.Size(228, 70);
             this.Approve1Btn.TabIndex = 10;
             this.Approve1Btn.Text = "Approve";
             this.Approve1Btn.UseVisualStyleBackColor = false;
@@ -132,9 +141,10 @@ namespace DiscussionRoomReservationSystem
             this.Reject1Btn.BackColor = System.Drawing.Color.Red;
             this.Reject1Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Reject1Btn.ForeColor = System.Drawing.Color.Ivory;
-            this.Reject1Btn.Location = new System.Drawing.Point(605, 162);
+            this.Reject1Btn.Location = new System.Drawing.Point(448, 152);
+            this.Reject1Btn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Reject1Btn.Name = "Reject1Btn";
-            this.Reject1Btn.Size = new System.Drawing.Size(171, 61);
+            this.Reject1Btn.Size = new System.Drawing.Size(228, 70);
             this.Reject1Btn.TabIndex = 11;
             this.Reject1Btn.Text = "Reject";
             this.Reject1Btn.UseVisualStyleBackColor = false;
@@ -145,9 +155,11 @@ namespace DiscussionRoomReservationSystem
             this.Request2Gbox.Controls.Add(this.From2Lbl);
             this.Request2Gbox.Controls.Add(this.Details2Lbl);
             this.Request2Gbox.Controls.Add(this.Request2Lbl);
-            this.Request2Gbox.Location = new System.Drawing.Point(108, 240);
+            this.Request2Gbox.Location = new System.Drawing.Point(60, 243);
+            this.Request2Gbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Request2Gbox.Name = "Request2Gbox";
-            this.Request2Gbox.Size = new System.Drawing.Size(470, 168);
+            this.Request2Gbox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Request2Gbox.Size = new System.Drawing.Size(365, 194);
             this.Request2Gbox.TabIndex = 10;
             this.Request2Gbox.TabStop = false;
             // 
@@ -156,7 +168,8 @@ namespace DiscussionRoomReservationSystem
             this.To2Lbl.AutoSize = true;
             this.To2Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.To2Lbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.To2Lbl.Location = new System.Drawing.Point(32, 129);
+            this.To2Lbl.Location = new System.Drawing.Point(43, 149);
+            this.To2Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.To2Lbl.Name = "To2Lbl";
             this.To2Lbl.Size = new System.Drawing.Size(33, 20);
             this.To2Lbl.TabIndex = 8;
@@ -167,7 +180,8 @@ namespace DiscussionRoomReservationSystem
             this.From2Lbl.AutoSize = true;
             this.From2Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.From2Lbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.From2Lbl.Location = new System.Drawing.Point(32, 94);
+            this.From2Lbl.Location = new System.Drawing.Point(43, 108);
+            this.From2Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.From2Lbl.Name = "From2Lbl";
             this.From2Lbl.Size = new System.Drawing.Size(53, 20);
             this.From2Lbl.TabIndex = 7;
@@ -178,7 +192,8 @@ namespace DiscussionRoomReservationSystem
             this.Details2Lbl.AutoSize = true;
             this.Details2Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Details2Lbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.Details2Lbl.Location = new System.Drawing.Point(32, 59);
+            this.Details2Lbl.Location = new System.Drawing.Point(43, 68);
+            this.Details2Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Details2Lbl.Name = "Details2Lbl";
             this.Details2Lbl.Size = new System.Drawing.Size(178, 20);
             this.Details2Lbl.TabIndex = 6;
@@ -189,7 +204,8 @@ namespace DiscussionRoomReservationSystem
             this.Request2Lbl.AutoSize = true;
             this.Request2Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Request2Lbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.Request2Lbl.Location = new System.Drawing.Point(165, 18);
+            this.Request2Lbl.Location = new System.Drawing.Point(106, 18);
+            this.Request2Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Request2Lbl.Name = "Request2Lbl";
             this.Request2Lbl.Size = new System.Drawing.Size(153, 20);
             this.Request2Lbl.TabIndex = 5;
@@ -200,9 +216,10 @@ namespace DiscussionRoomReservationSystem
             this.Approve2Btn.BackColor = System.Drawing.Color.Chartreuse;
             this.Approve2Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Approve2Btn.ForeColor = System.Drawing.Color.Ivory;
-            this.Approve2Btn.Location = new System.Drawing.Point(605, 247);
+            this.Approve2Btn.Location = new System.Drawing.Point(448, 275);
+            this.Approve2Btn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Approve2Btn.Name = "Approve2Btn";
-            this.Approve2Btn.Size = new System.Drawing.Size(171, 61);
+            this.Approve2Btn.Size = new System.Drawing.Size(228, 70);
             this.Approve2Btn.TabIndex = 12;
             this.Approve2Btn.Text = "Approve";
             this.Approve2Btn.UseVisualStyleBackColor = false;
@@ -212,17 +229,19 @@ namespace DiscussionRoomReservationSystem
             this.Reject2Btn.BackColor = System.Drawing.Color.Red;
             this.Reject2Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Reject2Btn.ForeColor = System.Drawing.Color.Ivory;
-            this.Reject2Btn.Location = new System.Drawing.Point(605, 334);
+            this.Reject2Btn.Location = new System.Drawing.Point(448, 351);
+            this.Reject2Btn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Reject2Btn.Name = "Reject2Btn";
-            this.Reject2Btn.Size = new System.Drawing.Size(171, 61);
+            this.Reject2Btn.Size = new System.Drawing.Size(228, 70);
             this.Reject2Btn.TabIndex = 13;
             this.Reject2Btn.Text = "Reject";
             this.Reject2Btn.UseVisualStyleBackColor = false;
             // 
             // Frm15_PendingRequest
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Reject2Btn);
             this.Controls.Add(this.Approve2Btn);
@@ -231,6 +250,7 @@ namespace DiscussionRoomReservationSystem
             this.Controls.Add(this.Approve1Btn);
             this.Controls.Add(this.Request1Gbox);
             this.Controls.Add(this.TitleLbl);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Frm15_PendingRequest";
             this.Text = "Frm15_PendingRequest";
             this.Request1Gbox.ResumeLayout(false);

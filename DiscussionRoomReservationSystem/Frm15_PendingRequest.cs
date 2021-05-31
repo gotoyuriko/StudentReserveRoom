@@ -16,5 +16,10 @@ namespace DiscussionRoomReservationSystem
         {
             InitializeComponent();
         }
+
+        private void Request1Lbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

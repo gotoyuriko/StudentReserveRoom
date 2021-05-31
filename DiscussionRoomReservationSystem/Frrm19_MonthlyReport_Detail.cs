@@ -16,5 +16,10 @@ namespace DiscussionRoomReservationSystem
         {
             InitializeComponent();
         }
+
+        private void Frrm19_MonthlyReport_Detail_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
