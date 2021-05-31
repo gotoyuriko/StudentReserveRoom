@@ -58,7 +58,8 @@ namespace DiscussionRoomReservationSystem
             this.TitleLbl.AutoSize = true;
             this.TitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.TitleLbl.Location = new System.Drawing.Point(228, 24);
+            this.TitleLbl.Location = new System.Drawing.Point(241, 20);
+            this.TitleLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TitleLbl.Name = "TitleLbl";
             this.TitleLbl.Size = new System.Drawing.Size(324, 32);
             this.TitleLbl.TabIndex = 5;
@@ -69,18 +70,21 @@ namespace DiscussionRoomReservationSystem
             this.AmberLbl.AutoSize = true;
             this.AmberLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AmberLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.AmberLbl.Location = new System.Drawing.Point(84, 16);
+            this.AmberLbl.Location = new System.Drawing.Point(63, 18);
+            this.AmberLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AmberLbl.Name = "AmberLbl";
             this.AmberLbl.Size = new System.Drawing.Size(63, 20);
             this.AmberLbl.TabIndex = 6;
             this.AmberLbl.Text = "Amber";
+            this.AmberLbl.Click += new System.EventHandler(this.AmberLbl_Click);
             // 
             // AmberReportLbl
             // 
             this.AmberReportLbl.AutoSize = true;
             this.AmberReportLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AmberReportLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.AmberReportLbl.Location = new System.Drawing.Point(28, 57);
+            this.AmberReportLbl.Location = new System.Drawing.Point(8, 54);
+            this.AmberReportLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AmberReportLbl.Name = "AmberReportLbl";
             this.AmberReportLbl.Size = new System.Drawing.Size(182, 18);
             this.AmberReportLbl.TabIndex = 7;
@@ -91,7 +95,8 @@ namespace DiscussionRoomReservationSystem
             this.AmberDetailsLbl.AutoSize = true;
             this.AmberDetailsLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AmberDetailsLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.AmberDetailsLbl.Location = new System.Drawing.Point(48, 96);
+            this.AmberDetailsLbl.Location = new System.Drawing.Point(37, 91);
+            this.AmberDetailsLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AmberDetailsLbl.Name = "AmberDetailsLbl";
             this.AmberDetailsLbl.Size = new System.Drawing.Size(142, 18);
             this.AmberDetailsLbl.TabIndex = 8;
@@ -102,9 +107,11 @@ namespace DiscussionRoomReservationSystem
             this.AmberGroupBox.Controls.Add(this.AmberDetailsLbl);
             this.AmberGroupBox.Controls.Add(this.AmberReportLbl);
             this.AmberGroupBox.Controls.Add(this.AmberLbl);
-            this.AmberGroupBox.Location = new System.Drawing.Point(146, 75);
+            this.AmberGroupBox.Location = new System.Drawing.Point(170, 74);
+            this.AmberGroupBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.AmberGroupBox.Name = "AmberGroupBox";
-            this.AmberGroupBox.Size = new System.Drawing.Size(230, 144);
+            this.AmberGroupBox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.AmberGroupBox.Size = new System.Drawing.Size(219, 140);
             this.AmberGroupBox.TabIndex = 9;
             this.AmberGroupBox.TabStop = false;
             // 
@@ -113,9 +120,11 @@ namespace DiscussionRoomReservationSystem
             this.CedarGroupBox.Controls.Add(this.CedarDetailsLbl);
             this.CedarGroupBox.Controls.Add(this.CedarReportLbl);
             this.CedarGroupBox.Controls.Add(this.CedarLbl);
-            this.CedarGroupBox.Location = new System.Drawing.Point(397, 75);
+            this.CedarGroupBox.Location = new System.Drawing.Point(397, 74);
+            this.CedarGroupBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CedarGroupBox.Name = "CedarGroupBox";
-            this.CedarGroupBox.Size = new System.Drawing.Size(230, 144);
+            this.CedarGroupBox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.CedarGroupBox.Size = new System.Drawing.Size(219, 140);
             this.CedarGroupBox.TabIndex = 10;
             this.CedarGroupBox.TabStop = false;
             // 
@@ -124,7 +133,8 @@ namespace DiscussionRoomReservationSystem
             this.CedarDetailsLbl.AutoSize = true;
             this.CedarDetailsLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CedarDetailsLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.CedarDetailsLbl.Location = new System.Drawing.Point(48, 95);
+            this.CedarDetailsLbl.Location = new System.Drawing.Point(37, 91);
+            this.CedarDetailsLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CedarDetailsLbl.Name = "CedarDetailsLbl";
             this.CedarDetailsLbl.Size = new System.Drawing.Size(142, 18);
             this.CedarDetailsLbl.TabIndex = 8;
@@ -135,7 +145,8 @@ namespace DiscussionRoomReservationSystem
             this.CedarReportLbl.AutoSize = true;
             this.CedarReportLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CedarReportLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.CedarReportLbl.Location = new System.Drawing.Point(28, 57);
+            this.CedarReportLbl.Location = new System.Drawing.Point(8, 54);
+            this.CedarReportLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CedarReportLbl.Name = "CedarReportLbl";
             this.CedarReportLbl.Size = new System.Drawing.Size(182, 18);
             this.CedarReportLbl.TabIndex = 7;
@@ -146,7 +157,8 @@ namespace DiscussionRoomReservationSystem
             this.CedarLbl.AutoSize = true;
             this.CedarLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CedarLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.CedarLbl.Location = new System.Drawing.Point(84, 16);
+            this.CedarLbl.Location = new System.Drawing.Point(63, 18);
+            this.CedarLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CedarLbl.Name = "CedarLbl";
             this.CedarLbl.Size = new System.Drawing.Size(59, 20);
             this.CedarLbl.TabIndex = 6;
@@ -157,9 +169,11 @@ namespace DiscussionRoomReservationSystem
             this.BlackThornGroupBox.Controls.Add(this.BlackThornDetailsLbl);
             this.BlackThornGroupBox.Controls.Add(this.BlackThornReportLbl);
             this.BlackThornGroupBox.Controls.Add(this.BlackThornLbl);
-            this.BlackThornGroupBox.Location = new System.Drawing.Point(146, 225);
+            this.BlackThornGroupBox.Location = new System.Drawing.Point(170, 230);
+            this.BlackThornGroupBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.BlackThornGroupBox.Name = "BlackThornGroupBox";
-            this.BlackThornGroupBox.Size = new System.Drawing.Size(230, 144);
+            this.BlackThornGroupBox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.BlackThornGroupBox.Size = new System.Drawing.Size(219, 153);
             this.BlackThornGroupBox.TabIndex = 10;
             this.BlackThornGroupBox.TabStop = false;
             // 
@@ -168,7 +182,8 @@ namespace DiscussionRoomReservationSystem
             this.BlackThornDetailsLbl.AutoSize = true;
             this.BlackThornDetailsLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BlackThornDetailsLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.BlackThornDetailsLbl.Location = new System.Drawing.Point(48, 96);
+            this.BlackThornDetailsLbl.Location = new System.Drawing.Point(37, 113);
+            this.BlackThornDetailsLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BlackThornDetailsLbl.Name = "BlackThornDetailsLbl";
             this.BlackThornDetailsLbl.Size = new System.Drawing.Size(142, 18);
             this.BlackThornDetailsLbl.TabIndex = 8;
@@ -179,7 +194,8 @@ namespace DiscussionRoomReservationSystem
             this.BlackThornReportLbl.AutoSize = true;
             this.BlackThornReportLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BlackThornReportLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.BlackThornReportLbl.Location = new System.Drawing.Point(28, 57);
+            this.BlackThornReportLbl.Location = new System.Drawing.Point(20, 70);
+            this.BlackThornReportLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BlackThornReportLbl.Name = "BlackThornReportLbl";
             this.BlackThornReportLbl.Size = new System.Drawing.Size(182, 18);
             this.BlackThornReportLbl.TabIndex = 7;
@@ -190,7 +206,8 @@ namespace DiscussionRoomReservationSystem
             this.BlackThornLbl.AutoSize = true;
             this.BlackThornLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BlackThornLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.BlackThornLbl.Location = new System.Drawing.Point(60, 18);
+            this.BlackThornLbl.Location = new System.Drawing.Point(53, 30);
+            this.BlackThornLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BlackThornLbl.Name = "BlackThornLbl";
             this.BlackThornLbl.Size = new System.Drawing.Size(110, 20);
             this.BlackThornLbl.TabIndex = 6;
@@ -201,9 +218,11 @@ namespace DiscussionRoomReservationSystem
             this.DaphneGroupBox.Controls.Add(this.DaphneDetailsLbl);
             this.DaphneGroupBox.Controls.Add(this.DaphneReportLbl);
             this.DaphneGroupBox.Controls.Add(this.DaphneLbl);
-            this.DaphneGroupBox.Location = new System.Drawing.Point(394, 227);
+            this.DaphneGroupBox.Location = new System.Drawing.Point(397, 230);
+            this.DaphneGroupBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.DaphneGroupBox.Name = "DaphneGroupBox";
-            this.DaphneGroupBox.Size = new System.Drawing.Size(230, 144);
+            this.DaphneGroupBox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.DaphneGroupBox.Size = new System.Drawing.Size(219, 153);
             this.DaphneGroupBox.TabIndex = 11;
             this.DaphneGroupBox.TabStop = false;
             // 
@@ -212,7 +231,8 @@ namespace DiscussionRoomReservationSystem
             this.DaphneDetailsLbl.AutoSize = true;
             this.DaphneDetailsLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DaphneDetailsLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.DaphneDetailsLbl.Location = new System.Drawing.Point(48, 96);
+            this.DaphneDetailsLbl.Location = new System.Drawing.Point(37, 113);
+            this.DaphneDetailsLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DaphneDetailsLbl.Name = "DaphneDetailsLbl";
             this.DaphneDetailsLbl.Size = new System.Drawing.Size(142, 18);
             this.DaphneDetailsLbl.TabIndex = 8;
@@ -223,7 +243,8 @@ namespace DiscussionRoomReservationSystem
             this.DaphneReportLbl.AutoSize = true;
             this.DaphneReportLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DaphneReportLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.DaphneReportLbl.Location = new System.Drawing.Point(31, 59);
+            this.DaphneReportLbl.Location = new System.Drawing.Point(8, 70);
+            this.DaphneReportLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DaphneReportLbl.Name = "DaphneReportLbl";
             this.DaphneReportLbl.Size = new System.Drawing.Size(182, 18);
             this.DaphneReportLbl.TabIndex = 7;
@@ -234,7 +255,8 @@ namespace DiscussionRoomReservationSystem
             this.DaphneLbl.AutoSize = true;
             this.DaphneLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DaphneLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.DaphneLbl.Location = new System.Drawing.Point(84, 16);
+            this.DaphneLbl.Location = new System.Drawing.Point(49, 18);
+            this.DaphneLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DaphneLbl.Name = "DaphneLbl";
             this.DaphneLbl.Size = new System.Drawing.Size(73, 20);
             this.DaphneLbl.TabIndex = 6;
@@ -245,17 +267,19 @@ namespace DiscussionRoomReservationSystem
             this.QueryBtn.BackColor = System.Drawing.Color.White;
             this.QueryBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QueryBtn.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.QueryBtn.Location = new System.Drawing.Point(308, 390);
+            this.QueryBtn.Location = new System.Drawing.Point(293, 389);
+            this.QueryBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.QueryBtn.Name = "QueryBtn";
-            this.QueryBtn.Size = new System.Drawing.Size(153, 39);
+            this.QueryBtn.Size = new System.Drawing.Size(204, 45);
             this.QueryBtn.TabIndex = 13;
             this.QueryBtn.Text = "Check Reports";
             this.QueryBtn.UseVisualStyleBackColor = false;
             // 
             // Frm18_MonthlyReport_Detail1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.QueryBtn);
             this.Controls.Add(this.DaphneGroupBox);
@@ -263,6 +287,7 @@ namespace DiscussionRoomReservationSystem
             this.Controls.Add(this.CedarGroupBox);
             this.Controls.Add(this.AmberGroupBox);
             this.Controls.Add(this.TitleLbl);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Frm18_MonthlyReport_Detail1";
             this.Text = "Frm18_MonthlyReport_Detail1";
             this.AmberGroupBox.ResumeLayout(false);

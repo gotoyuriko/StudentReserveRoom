@@ -43,9 +43,9 @@ namespace DiscussionRoomReservationSystem
             this.DailyBtn.BackColor = System.Drawing.Color.White;
             this.DailyBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DailyBtn.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.DailyBtn.Location = new System.Drawing.Point(312, 129);
+            this.DailyBtn.Location = new System.Drawing.Point(312, 121);
             this.DailyBtn.Name = "DailyBtn";
-            this.DailyBtn.Size = new System.Drawing.Size(163, 52);
+            this.DailyBtn.Size = new System.Drawing.Size(163, 49);
             this.DailyBtn.TabIndex = 13;
             this.DailyBtn.Text = "Daily Reports";
             this.DailyBtn.UseVisualStyleBackColor = false;
@@ -55,7 +55,7 @@ namespace DiscussionRoomReservationSystem
             this.TitleLbl.AutoSize = true;
             this.TitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.TitleLbl.Location = new System.Drawing.Point(229, 41);
+            this.TitleLbl.Location = new System.Drawing.Point(229, 38);
             this.TitleLbl.Name = "TitleLbl";
             this.TitleLbl.Size = new System.Drawing.Size(329, 32);
             this.TitleLbl.TabIndex = 12;
@@ -67,9 +67,9 @@ namespace DiscussionRoomReservationSystem
             this.MonthlyBtn.BackColor = System.Drawing.Color.White;
             this.MonthlyBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MonthlyBtn.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.MonthlyBtn.Location = new System.Drawing.Point(312, 211);
+            this.MonthlyBtn.Location = new System.Drawing.Point(312, 198);
             this.MonthlyBtn.Name = "MonthlyBtn";
-            this.MonthlyBtn.Size = new System.Drawing.Size(163, 52);
+            this.MonthlyBtn.Size = new System.Drawing.Size(163, 49);
             this.MonthlyBtn.TabIndex = 14;
             this.MonthlyBtn.Text = "Monthly Reports";
             this.MonthlyBtn.UseVisualStyleBackColor = false;
@@ -79,9 +79,9 @@ namespace DiscussionRoomReservationSystem
             this.RequestBtn.BackColor = System.Drawing.Color.White;
             this.RequestBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RequestBtn.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.RequestBtn.Location = new System.Drawing.Point(312, 290);
+            this.RequestBtn.Location = new System.Drawing.Point(312, 272);
             this.RequestBtn.Name = "RequestBtn";
-            this.RequestBtn.Size = new System.Drawing.Size(163, 52);
+            this.RequestBtn.Size = new System.Drawing.Size(163, 49);
             this.RequestBtn.TabIndex = 15;
             this.RequestBtn.Text = "Pending Request";
             this.RequestBtn.UseVisualStyleBackColor = false;
@@ -91,7 +91,7 @@ namespace DiscussionRoomReservationSystem
             this.LogooutLbl.AutoSize = true;
             this.LogooutLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogooutLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.LogooutLbl.Location = new System.Drawing.Point(25, 65);
+            this.LogooutLbl.Location = new System.Drawing.Point(25, 61);
             this.LogooutLbl.Name = "LogooutLbl";
             this.LogooutLbl.Size = new System.Drawing.Size(58, 17);
             this.LogooutLbl.TabIndex = 16;
@@ -99,15 +99,17 @@ namespace DiscussionRoomReservationSystem
             // 
             // LogoutPicBox
             // 
-            this.LogoutPicBox.Location = new System.Drawing.Point(28, 12);
+            this.LogoutPicBox.Image = global::DiscussionRoomReservationSystem.Properties.Resources.logout;
+            this.LogoutPicBox.Location = new System.Drawing.Point(28, 11);
             this.LogoutPicBox.Name = "LogoutPicBox";
-            this.LogoutPicBox.Size = new System.Drawing.Size(55, 50);
+            this.LogoutPicBox.Size = new System.Drawing.Size(55, 47);
+            this.LogoutPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LogoutPicBox.TabIndex = 17;
             this.LogoutPicBox.TabStop = false;
             // 
             // Frm14_AdminMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);

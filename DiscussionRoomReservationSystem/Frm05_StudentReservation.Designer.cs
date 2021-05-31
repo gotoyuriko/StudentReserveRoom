@@ -49,9 +49,9 @@ namespace DiscussionRoomReservationSystem
             this.ReserveBtn.BackColor = System.Drawing.Color.White;
             this.ReserveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ReserveBtn.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.ReserveBtn.Location = new System.Drawing.Point(321, 349);
+            this.ReserveBtn.Location = new System.Drawing.Point(321, 327);
             this.ReserveBtn.Name = "ReserveBtn";
-            this.ReserveBtn.Size = new System.Drawing.Size(132, 43);
+            this.ReserveBtn.Size = new System.Drawing.Size(132, 40);
             this.ReserveBtn.TabIndex = 9;
             this.ReserveBtn.Text = "Log In";
             this.ReserveBtn.UseVisualStyleBackColor = false;
@@ -61,7 +61,7 @@ namespace DiscussionRoomReservationSystem
             this.RoomLbl.AutoSize = true;
             this.RoomLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.RoomLbl.Location = new System.Drawing.Point(155, 127);
+            this.RoomLbl.Location = new System.Drawing.Point(155, 119);
             this.RoomLbl.Name = "RoomLbl";
             this.RoomLbl.Size = new System.Drawing.Size(90, 17);
             this.RoomLbl.TabIndex = 8;
@@ -72,7 +72,7 @@ namespace DiscussionRoomReservationSystem
             this.TitleLbl.AutoSize = true;
             this.TitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.TitleLbl.Location = new System.Drawing.Point(246, 57);
+            this.TitleLbl.Location = new System.Drawing.Point(246, 53);
             this.TitleLbl.Name = "TitleLbl";
             this.TitleLbl.Size = new System.Drawing.Size(292, 32);
             this.TitleLbl.TabIndex = 7;
@@ -84,7 +84,7 @@ namespace DiscussionRoomReservationSystem
             this.StudentNumLbl.AutoSize = true;
             this.StudentNumLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StudentNumLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.StudentNumLbl.Location = new System.Drawing.Point(155, 169);
+            this.StudentNumLbl.Location = new System.Drawing.Point(155, 158);
             this.StudentNumLbl.Name = "StudentNumLbl";
             this.StudentNumLbl.Size = new System.Drawing.Size(133, 17);
             this.StudentNumLbl.TabIndex = 10;
@@ -95,7 +95,7 @@ namespace DiscussionRoomReservationSystem
             this.DateLbl.AutoSize = true;
             this.DateLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DateLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.DateLbl.Location = new System.Drawing.Point(155, 210);
+            this.DateLbl.Location = new System.Drawing.Point(155, 197);
             this.DateLbl.Name = "DateLbl";
             this.DateLbl.Size = new System.Drawing.Size(42, 17);
             this.DateLbl.TabIndex = 11;
@@ -106,7 +106,7 @@ namespace DiscussionRoomReservationSystem
             this.StartTimeLbl.AutoSize = true;
             this.StartTimeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StartTimeLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.StartTimeLbl.Location = new System.Drawing.Point(155, 253);
+            this.StartTimeLbl.Location = new System.Drawing.Point(155, 237);
             this.StartTimeLbl.Name = "StartTimeLbl";
             this.StartTimeLbl.Size = new System.Drawing.Size(83, 17);
             this.StartTimeLbl.TabIndex = 12;
@@ -117,7 +117,7 @@ namespace DiscussionRoomReservationSystem
             this.EndTimeLbl.AutoSize = true;
             this.EndTimeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EndTimeLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.EndTimeLbl.Location = new System.Drawing.Point(155, 290);
+            this.EndTimeLbl.Location = new System.Drawing.Point(155, 272);
             this.EndTimeLbl.Name = "EndTimeLbl";
             this.EndTimeLbl.Size = new System.Drawing.Size(76, 17);
             this.EndTimeLbl.TabIndex = 13;
@@ -126,42 +126,42 @@ namespace DiscussionRoomReservationSystem
             // RoomTypeCmb
             // 
             this.RoomTypeCmb.FormattingEnabled = true;
-            this.RoomTypeCmb.Location = new System.Drawing.Point(321, 124);
+            this.RoomTypeCmb.Location = new System.Drawing.Point(321, 116);
             this.RoomTypeCmb.Name = "RoomTypeCmb";
-            this.RoomTypeCmb.Size = new System.Drawing.Size(283, 24);
+            this.RoomTypeCmb.Size = new System.Drawing.Size(283, 23);
             this.RoomTypeCmb.TabIndex = 14;
             // 
             // StudentsCountNum
             // 
-            this.StudentsCountNum.Location = new System.Drawing.Point(321, 168);
+            this.StudentsCountNum.Location = new System.Drawing.Point(321, 158);
             this.StudentsCountNum.Name = "StudentsCountNum";
             this.StudentsCountNum.Size = new System.Drawing.Size(71, 22);
             this.StudentsCountNum.TabIndex = 15;
             // 
             // DateSelectPicker
             // 
-            this.DateSelectPicker.Location = new System.Drawing.Point(321, 210);
+            this.DateSelectPicker.Location = new System.Drawing.Point(321, 197);
             this.DateSelectPicker.Name = "DateSelectPicker";
             this.DateSelectPicker.Size = new System.Drawing.Size(283, 22);
             this.DateSelectPicker.TabIndex = 16;
             // 
             // StartTimeSelectPicker
             // 
-            this.StartTimeSelectPicker.Location = new System.Drawing.Point(321, 251);
+            this.StartTimeSelectPicker.Location = new System.Drawing.Point(321, 235);
             this.StartTimeSelectPicker.Name = "StartTimeSelectPicker";
             this.StartTimeSelectPicker.Size = new System.Drawing.Size(283, 22);
             this.StartTimeSelectPicker.TabIndex = 17;
             // 
             // EndTimeSelectPicker
             // 
-            this.EndTimeSelectPicker.Location = new System.Drawing.Point(321, 289);
+            this.EndTimeSelectPicker.Location = new System.Drawing.Point(321, 271);
             this.EndTimeSelectPicker.Name = "EndTimeSelectPicker";
             this.EndTimeSelectPicker.Size = new System.Drawing.Size(283, 22);
             this.EndTimeSelectPicker.TabIndex = 18;
             // 
             // Frm05_StudentReservation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);

@@ -45,7 +45,8 @@ namespace DiscussionRoomReservationSystem
             this.TitleLbl.AutoSize = true;
             this.TitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.TitleLbl.Location = new System.Drawing.Point(115, 39);
+            this.TitleLbl.Location = new System.Drawing.Point(112, 38);
+            this.TitleLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TitleLbl.Name = "TitleLbl";
             this.TitleLbl.Size = new System.Drawing.Size(588, 32);
             this.TitleLbl.TabIndex = 0;
@@ -56,7 +57,8 @@ namespace DiscussionRoomReservationSystem
             this.SignupLbl.AutoSize = true;
             this.SignupLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SignupLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.SignupLbl.Location = new System.Drawing.Point(212, 101);
+            this.SignupLbl.Location = new System.Drawing.Point(162, 104);
+            this.SignupLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SignupLbl.Name = "SignupLbl";
             this.SignupLbl.Size = new System.Drawing.Size(123, 32);
             this.SignupLbl.TabIndex = 1;
@@ -67,7 +69,8 @@ namespace DiscussionRoomReservationSystem
             this.UsernameLbl.AutoSize = true;
             this.UsernameLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsernameLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.UsernameLbl.Location = new System.Drawing.Point(215, 153);
+            this.UsernameLbl.Location = new System.Drawing.Point(165, 142);
+            this.UsernameLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UsernameLbl.Name = "UsernameLbl";
             this.UsernameLbl.Size = new System.Drawing.Size(79, 17);
             this.UsernameLbl.TabIndex = 2;
@@ -77,9 +80,10 @@ namespace DiscussionRoomReservationSystem
             // 
             this.UsernameTxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsernameTxtbox.ForeColor = System.Drawing.Color.LightGray;
-            this.UsernameTxtbox.Location = new System.Drawing.Point(218, 182);
+            this.UsernameTxtbox.Location = new System.Drawing.Point(168, 162);
+            this.UsernameTxtbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.UsernameTxtbox.Name = "UsernameTxtbox";
-            this.UsernameTxtbox.Size = new System.Drawing.Size(344, 27);
+            this.UsernameTxtbox.Size = new System.Drawing.Size(457, 27);
             this.UsernameTxtbox.TabIndex = 5;
             this.UsernameTxtbox.Text = "Required Field";
             // 
@@ -88,7 +92,8 @@ namespace DiscussionRoomReservationSystem
             this.ConfirmpassLbl.AutoSize = true;
             this.ConfirmpassLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConfirmpassLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.ConfirmpassLbl.Location = new System.Drawing.Point(214, 293);
+            this.ConfirmpassLbl.Location = new System.Drawing.Point(165, 257);
+            this.ConfirmpassLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ConfirmpassLbl.Name = "ConfirmpassLbl";
             this.ConfirmpassLbl.Size = new System.Drawing.Size(121, 17);
             this.ConfirmpassLbl.TabIndex = 8;
@@ -99,7 +104,8 @@ namespace DiscussionRoomReservationSystem
             this.PasswordLbl.AutoSize = true;
             this.PasswordLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.PasswordLbl.Location = new System.Drawing.Point(215, 222);
+            this.PasswordLbl.Location = new System.Drawing.Point(165, 197);
+            this.PasswordLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PasswordLbl.Name = "PasswordLbl";
             this.PasswordLbl.Size = new System.Drawing.Size(69, 17);
             this.PasswordLbl.TabIndex = 9;
@@ -109,9 +115,10 @@ namespace DiscussionRoomReservationSystem
             // 
             this.PasswordTxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordTxtbox.ForeColor = System.Drawing.Color.LightGray;
-            this.PasswordTxtbox.Location = new System.Drawing.Point(218, 247);
+            this.PasswordTxtbox.Location = new System.Drawing.Point(168, 217);
+            this.PasswordTxtbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PasswordTxtbox.Name = "PasswordTxtbox";
-            this.PasswordTxtbox.Size = new System.Drawing.Size(344, 27);
+            this.PasswordTxtbox.Size = new System.Drawing.Size(457, 27);
             this.PasswordTxtbox.TabIndex = 10;
             this.PasswordTxtbox.Text = "Required Field";
             // 
@@ -119,9 +126,10 @@ namespace DiscussionRoomReservationSystem
             // 
             this.ConfirmpassTxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConfirmpassTxtbox.ForeColor = System.Drawing.Color.LightGray;
-            this.ConfirmpassTxtbox.Location = new System.Drawing.Point(217, 319);
+            this.ConfirmpassTxtbox.Location = new System.Drawing.Point(168, 277);
+            this.ConfirmpassTxtbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ConfirmpassTxtbox.Name = "ConfirmpassTxtbox";
-            this.ConfirmpassTxtbox.Size = new System.Drawing.Size(345, 27);
+            this.ConfirmpassTxtbox.Size = new System.Drawing.Size(459, 27);
             this.ConfirmpassTxtbox.TabIndex = 11;
             this.ConfirmpassTxtbox.Text = "Required Field";
             // 
@@ -130,16 +138,17 @@ namespace DiscussionRoomReservationSystem
             this.LoginBtn.BackColor = System.Drawing.Color.White;
             this.LoginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginBtn.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.LoginBtn.Location = new System.Drawing.Point(319, 384);
+            this.LoginBtn.Location = new System.Drawing.Point(304, 344);
+            this.LoginBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(153, 39);
+            this.LoginBtn.Size = new System.Drawing.Size(204, 45);
             this.LoginBtn.TabIndex = 12;
             this.LoginBtn.Text = "Signup";
             this.LoginBtn.UseVisualStyleBackColor = false;
             // 
             // Frm03_SignUp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
@@ -152,6 +161,7 @@ namespace DiscussionRoomReservationSystem
             this.Controls.Add(this.UsernameLbl);
             this.Controls.Add(this.SignupLbl);
             this.Controls.Add(this.TitleLbl);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Frm03_SignUp";
             this.Text = "Signup Form";
             this.ResumeLayout(false);

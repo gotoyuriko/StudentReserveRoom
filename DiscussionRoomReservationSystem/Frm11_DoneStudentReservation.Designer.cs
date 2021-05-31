@@ -38,7 +38,7 @@ namespace DiscussionRoomReservationSystem
             this.TitleLbl.AutoSize = true;
             this.TitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.TitleLbl.Location = new System.Drawing.Point(231, 186);
+            this.TitleLbl.Location = new System.Drawing.Point(204, 133);
             this.TitleLbl.Name = "TitleLbl";
             this.TitleLbl.Size = new System.Drawing.Size(338, 32);
             this.TitleLbl.TabIndex = 11;
@@ -50,16 +50,16 @@ namespace DiscussionRoomReservationSystem
             this.ConfirmBtn.BackColor = System.Drawing.Color.White;
             this.ConfirmBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConfirmBtn.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.ConfirmBtn.Location = new System.Drawing.Point(309, 356);
+            this.ConfirmBtn.Location = new System.Drawing.Point(282, 293);
             this.ConfirmBtn.Name = "ConfirmBtn";
-            this.ConfirmBtn.Size = new System.Drawing.Size(163, 52);
+            this.ConfirmBtn.Size = new System.Drawing.Size(163, 49);
             this.ConfirmBtn.TabIndex = 12;
             this.ConfirmBtn.Text = "Back to Menu";
             this.ConfirmBtn.UseVisualStyleBackColor = false;
             // 
             // Frm11_DoneStudentReservation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);

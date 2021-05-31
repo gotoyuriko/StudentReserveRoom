@@ -29,12 +29,11 @@ namespace DiscussionRoomReservationSystem
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm04_StudentMain));
             this.TitleLabl = new System.Windows.Forms.Label();
             this.AmberGBox = new System.Windows.Forms.GroupBox();
-            this.AmberPBar = new System.Windows.Forms.ProgressBar();
-            this.AmberRoomsLbl = new System.Windows.Forms.Label();
             this.AmberMaxLbl = new System.Windows.Forms.Label();
+            this.AmberRoomsLbl = new System.Windows.Forms.Label();
+            this.AmberPBar = new System.Windows.Forms.ProgressBar();
             this.CedarGBox = new System.Windows.Forms.GroupBox();
             this.CedarMaxLbl = new System.Windows.Forms.Label();
             this.CedarRoomsLbl = new System.Windows.Forms.Label();
@@ -80,12 +79,16 @@ namespace DiscussionRoomReservationSystem
             this.AmberGBox.TabStop = false;
             this.AmberGBox.Text = "Amber";
             // 
-            // AmberPBar
+            // AmberMaxLbl
             // 
-            this.AmberPBar.Location = new System.Drawing.Point(0, 21);
-            this.AmberPBar.Name = "AmberPBar";
-            this.AmberPBar.Size = new System.Drawing.Size(200, 23);
-            this.AmberPBar.TabIndex = 0;
+            this.AmberMaxLbl.AutoSize = true;
+            this.AmberMaxLbl.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.AmberMaxLbl.Location = new System.Drawing.Point(33, 74);
+            this.AmberMaxLbl.Name = "AmberMaxLbl";
+            this.AmberMaxLbl.Size = new System.Drawing.Size(127, 14);
+            this.AmberMaxLbl.TabIndex = 2;
+            this.AmberMaxLbl.Text = "10 students/room";
+            this.AmberMaxLbl.Click += new System.EventHandler(this.label2_Click);
             // 
             // AmberRoomsLbl
             // 
@@ -97,16 +100,12 @@ namespace DiscussionRoomReservationSystem
             this.AmberRoomsLbl.TabIndex = 1;
             this.AmberRoomsLbl.Text = "Available : 5/5 rooms";
             // 
-            // AmberMaxLbl
+            // AmberPBar
             // 
-            this.AmberMaxLbl.AutoSize = true;
-            this.AmberMaxLbl.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.AmberMaxLbl.Location = new System.Drawing.Point(33, 74);
-            this.AmberMaxLbl.Name = "AmberMaxLbl";
-            this.AmberMaxLbl.Size = new System.Drawing.Size(127, 14);
-            this.AmberMaxLbl.TabIndex = 2;
-            this.AmberMaxLbl.Text = "10 students/room";
-            this.AmberMaxLbl.Click += new System.EventHandler(this.label2_Click);
+            this.AmberPBar.Location = new System.Drawing.Point(0, 21);
+            this.AmberPBar.Name = "AmberPBar";
+            this.AmberPBar.Size = new System.Drawing.Size(200, 23);
+            this.AmberPBar.TabIndex = 0;
             // 
             // CedarGBox
             // 
@@ -251,10 +250,10 @@ namespace DiscussionRoomReservationSystem
             // 
             // LogoutPic
             // 
-            this.LogoutPic.Image = ((System.Drawing.Image)(resources.GetObject("LogoutPic.Image")));
-            this.LogoutPic.Location = new System.Drawing.Point(720, 12);
+            this.LogoutPic.Image = global::DiscussionRoomReservationSystem.Properties.Resources.notification;
+            this.LogoutPic.Location = new System.Drawing.Point(717, 12);
             this.LogoutPic.Name = "LogoutPic";
-            this.LogoutPic.Size = new System.Drawing.Size(47, 50);
+            this.LogoutPic.Size = new System.Drawing.Size(56, 50);
             this.LogoutPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LogoutPic.TabIndex = 8;
             this.LogoutPic.TabStop = false;

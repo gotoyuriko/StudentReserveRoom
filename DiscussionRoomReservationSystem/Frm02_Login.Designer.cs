@@ -43,7 +43,7 @@ namespace DiscussionRoomReservationSystem
             this.TitleLbl.AutoSize = true;
             this.TitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.TitleLbl.Location = new System.Drawing.Point(102, 54);
+            this.TitleLbl.Location = new System.Drawing.Point(102, 51);
             this.TitleLbl.Name = "TitleLbl";
             this.TitleLbl.Size = new System.Drawing.Size(588, 32);
             this.TitleLbl.TabIndex = 0;
@@ -55,7 +55,7 @@ namespace DiscussionRoomReservationSystem
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label2.Location = new System.Drawing.Point(208, 118);
+            this.label2.Location = new System.Drawing.Point(208, 111);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 32);
             this.label2.TabIndex = 1;
@@ -66,7 +66,7 @@ namespace DiscussionRoomReservationSystem
             this.UsernameLbl.AutoSize = true;
             this.UsernameLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsernameLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.UsernameLbl.Location = new System.Drawing.Point(211, 159);
+            this.UsernameLbl.Location = new System.Drawing.Point(211, 149);
             this.UsernameLbl.Name = "UsernameLbl";
             this.UsernameLbl.Size = new System.Drawing.Size(88, 17);
             this.UsernameLbl.TabIndex = 2;
@@ -78,7 +78,7 @@ namespace DiscussionRoomReservationSystem
             this.PasswordLbl.AutoSize = true;
             this.PasswordLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordLbl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.PasswordLbl.Location = new System.Drawing.Point(211, 233);
+            this.PasswordLbl.Location = new System.Drawing.Point(211, 218);
             this.PasswordLbl.Name = "PasswordLbl";
             this.PasswordLbl.Size = new System.Drawing.Size(77, 17);
             this.PasswordLbl.TabIndex = 3;
@@ -88,7 +88,7 @@ namespace DiscussionRoomReservationSystem
             // 
             this.UsernameTxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsernameTxtbox.ForeColor = System.Drawing.Color.LightGray;
-            this.UsernameTxtbox.Location = new System.Drawing.Point(214, 191);
+            this.UsernameTxtbox.Location = new System.Drawing.Point(214, 179);
             this.UsernameTxtbox.Name = "UsernameTxtbox";
             this.UsernameTxtbox.Size = new System.Drawing.Size(342, 27);
             this.UsernameTxtbox.TabIndex = 4;
@@ -98,7 +98,7 @@ namespace DiscussionRoomReservationSystem
             // 
             this.PasswordTxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordTxtbox.ForeColor = System.Drawing.Color.LightGray;
-            this.PasswordTxtbox.Location = new System.Drawing.Point(214, 276);
+            this.PasswordTxtbox.Location = new System.Drawing.Point(214, 259);
             this.PasswordTxtbox.Name = "PasswordTxtbox";
             this.PasswordTxtbox.Size = new System.Drawing.Size(342, 27);
             this.PasswordTxtbox.TabIndex = 5;
@@ -109,16 +109,16 @@ namespace DiscussionRoomReservationSystem
             this.LoginBtn.BackColor = System.Drawing.Color.White;
             this.LoginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginBtn.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.LoginBtn.Location = new System.Drawing.Point(317, 344);
+            this.LoginBtn.Location = new System.Drawing.Point(317, 322);
             this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(132, 43);
+            this.LoginBtn.Size = new System.Drawing.Size(132, 40);
             this.LoginBtn.TabIndex = 6;
             this.LoginBtn.Text = "Log In";
             this.LoginBtn.UseVisualStyleBackColor = false;
             // 
             // Frm02_Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
