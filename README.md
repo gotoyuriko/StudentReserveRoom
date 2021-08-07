@@ -73,31 +73,16 @@ Select
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+Clone the repo
+```sh
+git clone git@github.com:gotoyuriko/IOOFI.git
+```
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
-
+To open the Applciation, go to `/IOOFI/DisucussionRoomReservationSystem/bin/Release` and open `DiscussionRoomReservationSystem` Application.
 
 <!-- CONTRIBUTING -->
 ## Contributing
