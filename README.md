@@ -40,7 +40,12 @@ Released under [GNU 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.ht
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Student Reservation System][product-screenshot]](https://example.com)
+![Screenshot_2021-08-07_220827](https://user-images.githubusercontent.com/64601225/128603343-0c439016-ba30-47f7-914d-da46cb659266.png)
+![Screenshot_2021-08-07_220856](https://user-images.githubusercontent.com/64601225/128603368-bbf5f666-06eb-4b42-8fee-4382bbbe11c2.png)
+![Screenshot_2021-08-07_220924](https://user-images.githubusercontent.com/64601225/128603369-da76ad74-c7d9-4eef-9a5c-d2c2559161a4.png)
+![Screenshot_2021-08-07_220947](https://user-images.githubusercontent.com/64601225/128603374-1f892882-1e50-4bc4-b4e8-af9f8d0e54b4.png)
+![Screenshot_2021-08-07_221031](https://user-images.githubusercontent.com/64601225/128603378-4b1d0179-3099-42d0-a2de-52fa43295f47.png)
+![Screenshot_2021-08-07_221324](https://user-images.githubusercontent.com/64601225/128603381-705c7fa3-a2e1-4267-8916-59145fec80a3.png)
 
 As a Group Assignment for the Introduction to Object Oriented Programming, we are assigned to create a room reservation system that will be used by students and managed by the admin. The systems allow the students to be able to pick from 20 different discussion room which consists of Amber, Black Thorn, Cedar, and Daphne. The students only allowed to reserve a room 2 days prior to the desired schedule, under 2 days our system will automatically reject the request. The students also not allowed to register a room more than 6 hours, our system will automatically reject the requested date.
 
