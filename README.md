@@ -22,7 +22,7 @@ _Repo metadata_
 
 ## License
 
-Released under [GNU 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) by [@gotoyuriko](https://github.com/gotoyuriko).
+Released under [GNU 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) by [@gotoyuriko](https://github.com/gotoyuriko), [@Xavvyro](https://github.com/Xavvyro) and [@christjandra15](https://github.com/christjandra15).
 
 
 <!-- PROJECT LOGO -->
