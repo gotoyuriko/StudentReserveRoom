@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,6 +49,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,12 +62,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Frm10_ChangeReservation.cs">
+    <Compile Include="Frm09_CancelReservation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm10_ChangeReservation.Designer.cs">
-      <DependentUpon>Frm10_ChangeReservation.cs</DependentUpon>
+    <Compile Include="Frm09_CancelReservation.Designer.cs">
+      <DependentUpon>Frm09_CancelReservation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm11_ChangeReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm11_ChangeReservation.Designer.cs">
+      <DependentUpon>Frm11_ChangeReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenuDatabase.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainMenuDatabase.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Room.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="Frm01_Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,29 +116,23 @@
     <Compile Include="Frm05_StudentReservation.Designer.cs">
       <DependentUpon>Frm05_StudentReservation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm06_Notification.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm06_Notification.Designer.cs">
-      <DependentUpon>Frm06_Notification.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frm08_YourReservation.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm08_YourReservation.Designer.cs">
       <DependentUpon>Frm08_YourReservation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm09_CheckYourReservation.cs">
+    <Compile Include="Frm06_CheckYourReservation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm09_CheckYourReservation.Designer.cs">
-      <DependentUpon>Frm09_CheckYourReservation.cs</DependentUpon>
+    <Compile Include="Frm06_CheckYourReservation.Designer.cs">
+      <DependentUpon>Frm06_CheckYourReservation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm11_DoneStudentReservation.cs">
+    <Compile Include="Frm07_DoneStudentReservation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm11_DoneStudentReservation.Designer.cs">
-      <DependentUpon>Frm11_DoneStudentReservation.cs</DependentUpon>
+    <Compile Include="Frm07_DoneStudentReservation.Designer.cs">
+      <DependentUpon>Frm07_DoneStudentReservation.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm12_DoneChangeReservation.cs">
       <SubType>Form</SubType>
@@ -112,50 +140,69 @@
     <Compile Include="Frm12_DoneChangeReservation.Designer.cs">
       <DependentUpon>Frm12_DoneChangeReservation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm13_DoneCancellation.cs">
+    <Compile Include="Frm10_DoneCancellation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm13_DoneCancellation.Designer.cs">
-      <DependentUpon>Frm13_DoneCancellation.cs</DependentUpon>
+    <Compile Include="Frm10_DoneCancellation.Designer.cs">
+      <DependentUpon>Frm10_DoneCancellation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm14_AdminMain.cs">
+    <Compile Include="Frm13_AdminMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm14_AdminMain.Designer.cs">
-      <DependentUpon>Frm14_AdminMain.cs</DependentUpon>
+    <Compile Include="Frm13_AdminMain.Designer.cs">
+      <DependentUpon>Frm13_AdminMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm15_PendingRequest.cs">
+    <Compile Include="Frm14_PendingRequest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm15_PendingRequest.Designer.cs">
-      <DependentUpon>Frm15_PendingRequest.cs</DependentUpon>
+    <Compile Include="Frm14_PendingRequest.Designer.cs">
+      <DependentUpon>Frm14_PendingRequest.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm16_DailyReport_Selection.cs">
+    <Compile Include="Frm15_DailyReport_Detail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm16_DailyReport_Selection.Designer.cs">
-      <DependentUpon>Frm16_DailyReport_Selection.cs</DependentUpon>
+    <Compile Include="Frm15_DailyReport_Detail.Designer.cs">
+      <DependentUpon>Frm15_DailyReport_Detail.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm17_DailyReport_Detail.cs">
+    <Compile Include="Frm16_MonthlyReport_Detail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm17_DailyReport_Detail.Designer.cs">
-      <DependentUpon>Frm17_DailyReport_Detail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Frm18_MonthlyReport_Detail1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm18_MonthlyReport_Detail1.Designer.cs">
-      <DependentUpon>Frm18_MonthlyReport_Detail1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Frrm19_MonthlyReport_Detail.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frrm19_MonthlyReport_Detail.Designer.cs">
-      <DependentUpon>Frrm19_MonthlyReport_Detail.cs</DependentUpon>
+    <Compile Include="Frm16_MonthlyReport_Detail.Designer.cs">
+      <DependentUpon>Frm16_MonthlyReport_Detail.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserDatabaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserDatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserDatabaseDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserDatabaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserOrdersView.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserOrdersView.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserReservedRoom.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserReservedRoom.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Frm01_Home.en-MY.resx">
+      <DependentUpon>Frm01_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm01_Home.resx">
+      <DependentUpon>Frm01_Home.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm02_Login.resx">
       <DependentUpon>Frm02_Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,49 +212,58 @@
     <EmbeddedResource Include="Frm04_StudentMain.resx">
       <DependentUpon>Frm04_StudentMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm09_CancelReservation.resx">
+      <DependentUpon>Frm09_CancelReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm11_ChangeReservation.resx">
+      <DependentUpon>Frm11_ChangeReservation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm05_StudentReservation.resx">
       <DependentUpon>Frm05_StudentReservation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frm06_Notification.resx">
-      <DependentUpon>Frm06_Notification.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm08_YourReservation.resx">
       <DependentUpon>Frm08_YourReservation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm09_CheckYourReservation.resx">
-      <DependentUpon>Frm09_CheckYourReservation.cs</DependentUpon>
+    <EmbeddedResource Include="Frm06_CheckYourReservation.resx">
+      <DependentUpon>Frm06_CheckYourReservation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm11_DoneStudentReservation.resx">
-      <DependentUpon>Frm11_DoneStudentReservation.cs</DependentUpon>
+    <EmbeddedResource Include="Frm07_DoneStudentReservation.resx">
+      <DependentUpon>Frm07_DoneStudentReservation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm12_DoneChangeReservation.resx">
       <DependentUpon>Frm12_DoneChangeReservation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm14_AdminMain.resx">
-      <DependentUpon>Frm14_AdminMain.cs</DependentUpon>
+    <EmbeddedResource Include="Frm10_DoneCancellation.resx">
+      <DependentUpon>Frm10_DoneCancellation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm15_PendingRequest.resx">
-      <DependentUpon>Frm15_PendingRequest.cs</DependentUpon>
+    <EmbeddedResource Include="Frm13_AdminMain.resx">
+      <DependentUpon>Frm13_AdminMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm17_DailyReport_Detail.resx">
-      <DependentUpon>Frm17_DailyReport_Detail.cs</DependentUpon>
+    <EmbeddedResource Include="Frm14_PendingRequest.resx">
+      <DependentUpon>Frm14_PendingRequest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm18_MonthlyReport_Detail1.resx">
-      <DependentUpon>Frm18_MonthlyReport_Detail1.cs</DependentUpon>
+    <EmbeddedResource Include="Frm15_DailyReport_Detail.resx">
+      <DependentUpon>Frm15_DailyReport_Detail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frrm19_MonthlyReport_Detail.resx">
-      <DependentUpon>Frrm19_MonthlyReport_Detail.cs</DependentUpon>
+    <EmbeddedResource Include="Frm16_MonthlyReport_Detail.resx">
+      <DependentUpon>Frm16_MonthlyReport_Detail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <None Include="MainMenuDatabase.xsc">
+      <DependentUpon>MainMenuDatabase.xsd</DependentUpon>
+    </None>
+    <None Include="MainMenuDatabase.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MainMenuDatabase.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MainMenuDatabase.xss">
+      <DependentUpon>MainMenuDatabase.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -217,15 +273,106 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="UserDatabaseDataSet.xsc">
+      <DependentUpon>UserDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UserDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UserDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UserDatabaseDataSet.xss">
+      <DependentUpon>UserDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UserDatabaseDataSet1.xsc">
+      <DependentUpon>UserDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="UserDatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UserDatabaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UserDatabaseDataSet1.xss">
+      <DependentUpon>UserDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="UserDatabaseDataSet2.xsc">
+      <DependentUpon>UserDatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="UserDatabaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UserDatabaseDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UserDatabaseDataSet2.xss">
+      <DependentUpon>UserDatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="UserOrdersView.xsc">
+      <DependentUpon>UserOrdersView.xsd</DependentUpon>
+    </None>
+    <None Include="UserOrdersView.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UserOrdersView.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UserOrdersView.xss">
+      <DependentUpon>UserOrdersView.xsd</DependentUpon>
+    </None>
+    <None Include="UserReservedRoom.xsc">
+      <DependentUpon>UserReservedRoom.xsd</DependentUpon>
+    </None>
+    <None Include="UserReservedRoom.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UserReservedRoom.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UserReservedRoom.xss">
+      <DependentUpon>UserReservedRoom.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\notification.png" />
+    <None Include="Resources\undraw_conversation_h12g1.png" />
+    <None Include="Resources\undraw_conversation_h12g2.png" />
+    <None Include="Resources\bg-ioop1.png" />
+    <None Include="Resources\icons8-exit-1001.png" />
+    <None Include="Resources\Untitled-1_21.png" />
+    <None Include="Resources\undraw_public_discussion_btnw.png" />
+    <None Include="Resources\icons8-notification-100.png" />
+    <None Include="Resources\undraw_Booking_re_gw4j.png" />
+    <None Include="Resources\undraw_among_nature_p1xb.png" />
+    <None Include="Resources\undraw_Relaxing_at_home_re_mror.png" />
+    <None Include="Resources\icons8-macos-close-100.png" />
+    <None Include="Resources\icons8-back-to-100.png" />
+    <None Include="Resources\undraw_Growth_analytics_re_pyxf.png" />
+    <None Include="Resources\undraw_Booking_re_gw4j %281%29.png" />
+    <None Include="Resources\undraw_Booking_re_gw4j %281%291.png" />
+    <None Include="Resources\undraw_Booking_re_gw4j__1_-removebg-preview.png" />
+    <None Include="Resources\undraw_Booking_re_gw4j__1_-removebg-preview1.png" />
+    <None Include="Resources\undraw_Hello_re_3evm.png" />
+    <None Include="Resources\undraw_Hello_re_3evm-removebg-preview.png" />
+    <None Include="Resources\icons8-lotus-100.png" />
+    <None Include="Resources\undraw_Crypto_flowers_bjmo-removebg-preview.png" />
+    <Content Include="UserDatabase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UserDatabase_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>UserDatabase.mdf</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logout.png" />
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

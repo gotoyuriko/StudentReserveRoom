@@ -117,4 +117,51 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAA9FJREFUeF7t
+        nUvoVVUUh//hKxQ1G/gKUwtEfIBva9bcUkeiaY5EKALNoEBQxJFjnYmvidpjIDhoEGjzEMEXlhhqkQMt
+        SUcqvr7f4MDlssL7l3uva627Pviml7343XP2Pvvsvc9QURRFURRFURRFURRFUQw4I/AD/BS/wm+d+QWu
+        wamYmgV4FP/B50G8hNtwAqbhbTyCT9AqOoJ3cTO+gaGZi9fQKjKi3+EYDInCuIdWYZE9g+FC0W0q05XR
+        7jEMhfoMq5BMrsYQaDQVuQPv1N9wFLpHQ1urgHaf4S0858jfcTh/po/RNSOxk+cMjVZmokfG4nb8D622
+        t3oCXfMhWg1vVWFEGM8vxwdo1dD4B7pmA1oNb9RtyuuVYbEXrToa1Y+45mu0Gt54EyMxDR+hVYvcj67Z
+        g1bDGy9jNHaiVcufOBldkzEQsQXVX6gGXTHf4wx0T9ZAGiaiRpJhyB5IOCoQZ1QgzqhAnFGBOCN7IJPw
+        GzyJmkRdi66ngTIHshBvY3tNP+JodEnWQLR06SJaNcnT6DKUrIGsRKueVn/CN9EVWQNZh1Y97bq7UrIG
+        sgyteixdhZK5U/8VrZos3YSSOZD30Bpl/Z8uQskciJiDf6NVm+Vr7+izByJChTIIgYgwoQxKICJEKL0K
+        RG/qtCJyqTM34kO0arXse0ff7UDeQRXxFK3fi2hfQ+lmIJpZbRYWZLNvq+e7GchutH4ji4ux53QzkF/Q
+        +o0sasNrz+lmIGfR+o0shgsk+y1rEfacbgbyFmbt1PX6ty90MxAxHU9hph1ZYYe9rWjjfj0YvgK9CsQj
+        rzJ10vft1IMSSIgwxCAEEiYMkT2QUGGIzIG8j/UK1wlaLnoerZosXYQhsgbSyXbvRjdhiKyBfIZWPe26
+        CkNkDeQjtOpp1V0YImsgWmx9Ha2apMswRNZAxBK8g+016agQl2GIzIGIKbgLNeGpGVudmVUbdorOqUCc
+        UYE4owJxRgXijOyB6D1/iIMvG7IGshVvoGrQ8UzaCv0uuidjIHrusGr5C/Vc4pqMR/w9RqsWeQBd08kh
+        mLMwCuEPwdSHWqyGt/oDRjgmdgWGPyZWs6L61obV+FbVKc5Gj4zDHXgfrba3ehzdM5yD+HWyp3Xk9+ty
+        uEeNr0L3zMdBOIz/KoY5EPMQWkVk8hMMg9biXkGrkAzqthwOLSr7F62CIvszun1D+DIUisbqVmER1ecp
+        wobRoAm5gxi5o9e79E2Yinl4GK2FAl69gF/ieEyLHh51ZN561MbHfY7UvsbPUSMo918+KIqiKIqiKIqi
+        KIqiKAqfDA29ADpccmfTCbpRAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="mainMenuBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>448, 60</value>
+  </metadata>
+  <metadata name="userDatabaseDataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>238, 60</value>
+  </metadata>
+  <metadata name="mainMenuDatabaseBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>210, 17</value>
+  </metadata>
+  <metadata name="mainMenuDatabase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="userDatabaseDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>502, 17</value>
+  </metadata>
+  <metadata name="mainMenuBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>712, 17</value>
+  </metadata>
+  <metadata name="mainMenuTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 60</value>
+  </metadata>
+  <metadata name="mainMenuTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>685, 60</value>
+  </metadata>
 </root>

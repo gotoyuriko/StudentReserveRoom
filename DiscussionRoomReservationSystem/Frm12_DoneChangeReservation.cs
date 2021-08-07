@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DiscussionRoomReservationSystem
@@ -15,6 +8,13 @@ namespace DiscussionRoomReservationSystem
         public Frm12_DoneChangeReservation()
         {
             InitializeComponent();
+        }
+
+        private void BackMenubtn_Click(object sender, EventArgs e)
+        {
+            Frm04_StudentMain frm04 = new Frm04_StudentMain();
+            Hide();
+            frm04.ShowDialog();
         }
     }
 }

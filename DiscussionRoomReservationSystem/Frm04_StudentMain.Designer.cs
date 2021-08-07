@@ -29,288 +29,303 @@ namespace DiscussionRoomReservationSystem
         /// </summary>
         private void InitializeComponent()
         {
-            this.TitleLabl = new System.Windows.Forms.Label();
-            this.AmberGBox = new System.Windows.Forms.GroupBox();
-            this.AmberMaxLbl = new System.Windows.Forms.Label();
-            this.AmberRoomsLbl = new System.Windows.Forms.Label();
-            this.AmberPBar = new System.Windows.Forms.ProgressBar();
-            this.CedarGBox = new System.Windows.Forms.GroupBox();
-            this.CedarMaxLbl = new System.Windows.Forms.Label();
-            this.CedarRoomsLbl = new System.Windows.Forms.Label();
-            this.CedarPBar = new System.Windows.Forms.ProgressBar();
-            this.DaphneGBox = new System.Windows.Forms.GroupBox();
-            this.DaphneMaxLbl = new System.Windows.Forms.Label();
-            this.DaphneRoomsLbl = new System.Windows.Forms.Label();
-            this.DaphonePBar = new System.Windows.Forms.ProgressBar();
-            this.BlackThronGbox = new System.Windows.Forms.GroupBox();
-            this.BlackThronMaxLbl = new System.Windows.Forms.Label();
-            this.BlackThronRoomsLbl = new System.Windows.Forms.Label();
-            this.BlackThronePBar = new System.Windows.Forms.ProgressBar();
-            this.LoginBtn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.LogoutPic = new System.Windows.Forms.PictureBox();
-            this.AmberGBox.SuspendLayout();
-            this.CedarGBox.SuspendLayout();
-            this.DaphneGBox.SuspendLayout();
-            this.BlackThronGbox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.LogoutPic)).BeginInit();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm04_StudentMain));
+            this.RoomRBtn = new System.Windows.Forms.Button();
+            this.YourRBtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.welcomeLabel = new System.Windows.Forms.Label();
+            this.roomCheckDataGridView = new System.Windows.Forms.DataGridView();
+            this.roomNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.startTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.endTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mainMenuBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.userDatabaseDataSet2 = new DiscussionRoomReservationSystem.UserDatabaseDataSet2();
+            this.mainMenuDatabaseBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.mainMenuDatabase = new DiscussionRoomReservationSystem.MainMenuDatabase();
+            this.checkRoomComboBox = new System.Windows.Forms.ComboBox();
+            this.CheckRButton = new System.Windows.Forms.Button();
+            this.userDatabaseDataSet1 = new DiscussionRoomReservationSystem.UserDatabaseDataSet1();
+            this.mainMenuBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.mainMenuTableAdapter = new DiscussionRoomReservationSystem.UserDatabaseDataSet1TableAdapters.MainMenuTableAdapter();
+            this.mainMenuTableAdapter1 = new DiscussionRoomReservationSystem.UserDatabaseDataSet2TableAdapters.MainMenuTableAdapter();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roomCheckDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainMenuBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userDatabaseDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainMenuDatabaseBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainMenuDatabase)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userDatabaseDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainMenuBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // TitleLabl
+            // RoomRBtn
             // 
-            this.TitleLabl.AutoSize = true;
-            this.TitleLabl.Font = new System.Drawing.Font("MS UI Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.TitleLabl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.TitleLabl.Location = new System.Drawing.Point(219, 64);
-            this.TitleLabl.Name = "TitleLabl";
-            this.TitleLabl.Size = new System.Drawing.Size(353, 28);
-            this.TitleLabl.TabIndex = 1;
-            this.TitleLabl.Text = "Student Room Reservation";
+            this.RoomRBtn.BackColor = System.Drawing.Color.Black;
+            this.RoomRBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RoomRBtn.ForeColor = System.Drawing.Color.White;
+            this.RoomRBtn.Location = new System.Drawing.Point(118, 444);
+            this.RoomRBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RoomRBtn.Name = "RoomRBtn";
+            this.RoomRBtn.Size = new System.Drawing.Size(176, 41);
+            this.RoomRBtn.TabIndex = 3;
+            this.RoomRBtn.Text = "Room Reservation";
+            this.RoomRBtn.UseVisualStyleBackColor = false;
+            this.RoomRBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
-            // AmberGBox
+            // YourRBtn
             // 
-            this.AmberGBox.Controls.Add(this.AmberMaxLbl);
-            this.AmberGBox.Controls.Add(this.AmberRoomsLbl);
-            this.AmberGBox.Controls.Add(this.AmberPBar);
-            this.AmberGBox.Location = new System.Drawing.Point(187, 126);
-            this.AmberGBox.Name = "AmberGBox";
-            this.AmberGBox.Size = new System.Drawing.Size(200, 100);
-            this.AmberGBox.TabIndex = 2;
-            this.AmberGBox.TabStop = false;
-            this.AmberGBox.Text = "Amber";
+            this.YourRBtn.BackColor = System.Drawing.Color.Black;
+            this.YourRBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YourRBtn.ForeColor = System.Drawing.Color.White;
+            this.YourRBtn.Location = new System.Drawing.Point(494, 444);
+            this.YourRBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.YourRBtn.Name = "YourRBtn";
+            this.YourRBtn.Size = new System.Drawing.Size(176, 41);
+            this.YourRBtn.TabIndex = 6;
+            this.YourRBtn.Text = "Your Reservation";
+            this.YourRBtn.UseVisualStyleBackColor = false;
+            this.YourRBtn.Click += new System.EventHandler(this.YourRBtn_Click);
             // 
-            // AmberMaxLbl
+            // pictureBox1
             // 
-            this.AmberMaxLbl.AutoSize = true;
-            this.AmberMaxLbl.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.AmberMaxLbl.Location = new System.Drawing.Point(33, 74);
-            this.AmberMaxLbl.Name = "AmberMaxLbl";
-            this.AmberMaxLbl.Size = new System.Drawing.Size(127, 14);
-            this.AmberMaxLbl.TabIndex = 2;
-            this.AmberMaxLbl.Text = "10 students/room";
-            this.AmberMaxLbl.Click += new System.EventHandler(this.label2_Click);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox1.Location = new System.Drawing.Point(737, 12);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(51, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 22;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // AmberRoomsLbl
+            // welcomeLabel
             // 
-            this.AmberRoomsLbl.AutoSize = true;
-            this.AmberRoomsLbl.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.AmberRoomsLbl.Location = new System.Drawing.Point(21, 47);
-            this.AmberRoomsLbl.Name = "AmberRoomsLbl";
-            this.AmberRoomsLbl.Size = new System.Drawing.Size(152, 14);
-            this.AmberRoomsLbl.TabIndex = 1;
-            this.AmberRoomsLbl.Text = "Available : 5/5 rooms";
+            this.welcomeLabel.AutoSize = true;
+            this.welcomeLabel.BackColor = System.Drawing.Color.Transparent;
+            this.welcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcomeLabel.ForeColor = System.Drawing.Color.Black;
+            this.welcomeLabel.Location = new System.Drawing.Point(209, 24);
+            this.welcomeLabel.Name = "welcomeLabel";
+            this.welcomeLabel.Size = new System.Drawing.Size(170, 38);
+            this.welcomeLabel.TabIndex = 23;
+            this.welcomeLabel.Text = "Welcome,";
+            this.welcomeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // AmberPBar
+            // roomCheckDataGridView
             // 
-            this.AmberPBar.Location = new System.Drawing.Point(0, 21);
-            this.AmberPBar.Name = "AmberPBar";
-            this.AmberPBar.Size = new System.Drawing.Size(200, 23);
-            this.AmberPBar.TabIndex = 0;
+            this.roomCheckDataGridView.AutoGenerateColumns = false;
+            this.roomCheckDataGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.roomCheckDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.roomCheckDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.roomNameDataGridViewTextBoxColumn,
+            this.startTimeDataGridViewTextBoxColumn,
+            this.endTimeDataGridViewTextBoxColumn,
+            this.statusDataGridViewTextBoxColumn});
+            this.roomCheckDataGridView.DataSource = this.mainMenuBindingSource1;
+            this.roomCheckDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            this.roomCheckDataGridView.Location = new System.Drawing.Point(118, 122);
+            this.roomCheckDataGridView.Margin = new System.Windows.Forms.Padding(4);
+            this.roomCheckDataGridView.Name = "roomCheckDataGridView";
+            this.roomCheckDataGridView.ReadOnly = true;
+            this.roomCheckDataGridView.RowHeadersWidth = 51;
+            this.roomCheckDataGridView.Size = new System.Drawing.Size(552, 314);
+            this.roomCheckDataGridView.TabIndex = 24;
             // 
-            // CedarGBox
+            // roomNameDataGridViewTextBoxColumn
             // 
-            this.CedarGBox.Controls.Add(this.CedarMaxLbl);
-            this.CedarGBox.Controls.Add(this.CedarRoomsLbl);
-            this.CedarGBox.Controls.Add(this.CedarPBar);
-            this.CedarGBox.Location = new System.Drawing.Point(393, 126);
-            this.CedarGBox.Name = "CedarGBox";
-            this.CedarGBox.Size = new System.Drawing.Size(200, 100);
-            this.CedarGBox.TabIndex = 3;
-            this.CedarGBox.TabStop = false;
-            this.CedarGBox.Text = "Ceder";
+            this.roomNameDataGridViewTextBoxColumn.DataPropertyName = "roomName";
+            this.roomNameDataGridViewTextBoxColumn.HeaderText = "roomName";
+            this.roomNameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.roomNameDataGridViewTextBoxColumn.Name = "roomNameDataGridViewTextBoxColumn";
+            this.roomNameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.roomNameDataGridViewTextBoxColumn.Width = 125;
             // 
-            // CedarMaxLbl
+            // startTimeDataGridViewTextBoxColumn
             // 
-            this.CedarMaxLbl.AutoSize = true;
-            this.CedarMaxLbl.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.CedarMaxLbl.Location = new System.Drawing.Point(33, 74);
-            this.CedarMaxLbl.Name = "CedarMaxLbl";
-            this.CedarMaxLbl.Size = new System.Drawing.Size(119, 14);
-            this.CedarMaxLbl.TabIndex = 2;
-            this.CedarMaxLbl.Text = "4 students/room";
+            this.startTimeDataGridViewTextBoxColumn.DataPropertyName = "startTime";
+            this.startTimeDataGridViewTextBoxColumn.HeaderText = "startTime";
+            this.startTimeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.startTimeDataGridViewTextBoxColumn.Name = "startTimeDataGridViewTextBoxColumn";
+            this.startTimeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.startTimeDataGridViewTextBoxColumn.Width = 125;
             // 
-            // CedarRoomsLbl
+            // endTimeDataGridViewTextBoxColumn
             // 
-            this.CedarRoomsLbl.AutoSize = true;
-            this.CedarRoomsLbl.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.CedarRoomsLbl.Location = new System.Drawing.Point(21, 47);
-            this.CedarRoomsLbl.Name = "CedarRoomsLbl";
-            this.CedarRoomsLbl.Size = new System.Drawing.Size(152, 14);
-            this.CedarRoomsLbl.TabIndex = 1;
-            this.CedarRoomsLbl.Text = "Available : 6/6 rooms";
+            this.endTimeDataGridViewTextBoxColumn.DataPropertyName = "endTime";
+            this.endTimeDataGridViewTextBoxColumn.HeaderText = "endTime";
+            this.endTimeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.endTimeDataGridViewTextBoxColumn.Name = "endTimeDataGridViewTextBoxColumn";
+            this.endTimeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.endTimeDataGridViewTextBoxColumn.Width = 125;
             // 
-            // CedarPBar
+            // statusDataGridViewTextBoxColumn
             // 
-            this.CedarPBar.Location = new System.Drawing.Point(0, 21);
-            this.CedarPBar.Name = "CedarPBar";
-            this.CedarPBar.Size = new System.Drawing.Size(200, 23);
-            this.CedarPBar.TabIndex = 0;
+            this.statusDataGridViewTextBoxColumn.DataPropertyName = "status";
+            this.statusDataGridViewTextBoxColumn.HeaderText = "status";
+            this.statusDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
+            this.statusDataGridViewTextBoxColumn.ReadOnly = true;
+            this.statusDataGridViewTextBoxColumn.Width = 125;
             // 
-            // DaphneGBox
+            // mainMenuBindingSource1
             // 
-            this.DaphneGBox.Controls.Add(this.DaphneMaxLbl);
-            this.DaphneGBox.Controls.Add(this.DaphneRoomsLbl);
-            this.DaphneGBox.Controls.Add(this.DaphonePBar);
-            this.DaphneGBox.Location = new System.Drawing.Point(393, 232);
-            this.DaphneGBox.Name = "DaphneGBox";
-            this.DaphneGBox.Size = new System.Drawing.Size(200, 100);
-            this.DaphneGBox.TabIndex = 5;
-            this.DaphneGBox.TabStop = false;
-            this.DaphneGBox.Text = "Daphne";
+            this.mainMenuBindingSource1.DataMember = "MainMenu";
+            this.mainMenuBindingSource1.DataSource = this.userDatabaseDataSet2;
             // 
-            // DaphneMaxLbl
+            // userDatabaseDataSet2
             // 
-            this.DaphneMaxLbl.AutoSize = true;
-            this.DaphneMaxLbl.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.DaphneMaxLbl.Location = new System.Drawing.Point(33, 74);
-            this.DaphneMaxLbl.Name = "DaphneMaxLbl";
-            this.DaphneMaxLbl.Size = new System.Drawing.Size(119, 14);
-            this.DaphneMaxLbl.TabIndex = 2;
-            this.DaphneMaxLbl.Text = "2 students/room";
+            this.userDatabaseDataSet2.DataSetName = "UserDatabaseDataSet2";
+            this.userDatabaseDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // DaphneRoomsLbl
+            // mainMenuDatabaseBindingSource
             // 
-            this.DaphneRoomsLbl.AutoSize = true;
-            this.DaphneRoomsLbl.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.DaphneRoomsLbl.Location = new System.Drawing.Point(21, 47);
-            this.DaphneRoomsLbl.Name = "DaphneRoomsLbl";
-            this.DaphneRoomsLbl.Size = new System.Drawing.Size(152, 14);
-            this.DaphneRoomsLbl.TabIndex = 1;
-            this.DaphneRoomsLbl.Text = "Available : 5/5 rooms";
+            this.mainMenuDatabaseBindingSource.DataSource = this.mainMenuDatabase;
+            this.mainMenuDatabaseBindingSource.Position = 0;
             // 
-            // DaphonePBar
+            // mainMenuDatabase
             // 
-            this.DaphonePBar.Location = new System.Drawing.Point(0, 21);
-            this.DaphonePBar.Name = "DaphonePBar";
-            this.DaphonePBar.Size = new System.Drawing.Size(200, 23);
-            this.DaphonePBar.TabIndex = 0;
+            this.mainMenuDatabase.DataSetName = "MainMenuDatabase";
+            this.mainMenuDatabase.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // BlackThronGbox
+            // checkRoomComboBox
             // 
-            this.BlackThronGbox.Controls.Add(this.BlackThronMaxLbl);
-            this.BlackThronGbox.Controls.Add(this.BlackThronRoomsLbl);
-            this.BlackThronGbox.Controls.Add(this.BlackThronePBar);
-            this.BlackThronGbox.Location = new System.Drawing.Point(187, 232);
-            this.BlackThronGbox.Name = "BlackThronGbox";
-            this.BlackThronGbox.Size = new System.Drawing.Size(200, 100);
-            this.BlackThronGbox.TabIndex = 4;
-            this.BlackThronGbox.TabStop = false;
-            this.BlackThronGbox.Text = "Black Thron";
+            this.checkRoomComboBox.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkRoomComboBox.FormattingEnabled = true;
+            this.checkRoomComboBox.Items.AddRange(new object[] {
+            "Amber1",
+            "Amber2",
+            "Amber3",
+            "Amber4",
+            "Amber5",
+            "BlackThorn1",
+            "BlacktThorn2",
+            "BlackThorn3",
+            "BlackThorn4",
+            "Cedar1",
+            "Cedar2",
+            "Cedar3",
+            "Cedar4",
+            "Cedar5",
+            "Cedar6",
+            "Daphne1",
+            "Daphne2",
+            "Daphne3",
+            "Daphne4",
+            "Daphne5"});
+            this.checkRoomComboBox.Location = new System.Drawing.Point(216, 81);
+            this.checkRoomComboBox.Margin = new System.Windows.Forms.Padding(4);
+            this.checkRoomComboBox.Name = "checkRoomComboBox";
+            this.checkRoomComboBox.Size = new System.Drawing.Size(176, 31);
+            this.checkRoomComboBox.TabIndex = 25;
+            this.checkRoomComboBox.Text = "Select a Room";
             // 
-            // BlackThronMaxLbl
+            // CheckRButton
             // 
-            this.BlackThronMaxLbl.AutoSize = true;
-            this.BlackThronMaxLbl.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.BlackThronMaxLbl.Location = new System.Drawing.Point(41, 74);
-            this.BlackThronMaxLbl.Name = "BlackThronMaxLbl";
-            this.BlackThronMaxLbl.Size = new System.Drawing.Size(119, 14);
-            this.BlackThronMaxLbl.TabIndex = 2;
-            this.BlackThronMaxLbl.Text = "8 students/room";
+            this.CheckRButton.BackColor = System.Drawing.Color.White;
+            this.CheckRButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CheckRButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckRButton.ForeColor = System.Drawing.Color.Black;
+            this.CheckRButton.Location = new System.Drawing.Point(399, 73);
+            this.CheckRButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CheckRButton.Name = "CheckRButton";
+            this.CheckRButton.Size = new System.Drawing.Size(176, 41);
+            this.CheckRButton.TabIndex = 26;
+            this.CheckRButton.Text = "Check";
+            this.CheckRButton.UseVisualStyleBackColor = false;
+            this.CheckRButton.Click += new System.EventHandler(this.CheckRButton_Click);
             // 
-            // BlackThronRoomsLbl
+            // userDatabaseDataSet1
             // 
-            this.BlackThronRoomsLbl.AutoSize = true;
-            this.BlackThronRoomsLbl.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.BlackThronRoomsLbl.Location = new System.Drawing.Point(21, 47);
-            this.BlackThronRoomsLbl.Name = "BlackThronRoomsLbl";
-            this.BlackThronRoomsLbl.Size = new System.Drawing.Size(152, 14);
-            this.BlackThronRoomsLbl.TabIndex = 1;
-            this.BlackThronRoomsLbl.Text = "Available : 4/4 rooms";
+            this.userDatabaseDataSet1.DataSetName = "UserDatabaseDataSet1";
+            this.userDatabaseDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // BlackThronePBar
+            // mainMenuBindingSource
             // 
-            this.BlackThronePBar.Location = new System.Drawing.Point(0, 21);
-            this.BlackThronePBar.Name = "BlackThronePBar";
-            this.BlackThronePBar.Size = new System.Drawing.Size(200, 23);
-            this.BlackThronePBar.TabIndex = 0;
+            this.mainMenuBindingSource.DataMember = "MainMenu";
+            this.mainMenuBindingSource.DataSource = this.userDatabaseDataSet1;
             // 
-            // LoginBtn
+            // mainMenuTableAdapter
             // 
-            this.LoginBtn.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LoginBtn.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.LoginBtn.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.LoginBtn.Location = new System.Drawing.Point(187, 365);
-            this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(147, 42);
-            this.LoginBtn.TabIndex = 3;
-            this.LoginBtn.Text = "Room Reservation";
-            this.LoginBtn.UseVisualStyleBackColor = false;
+            this.mainMenuTableAdapter.ClearBeforeFill = true;
             // 
-            // button1
+            // mainMenuTableAdapter1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Font = new System.Drawing.Font("MS UI Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.button1.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.button1.Location = new System.Drawing.Point(446, 365);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 42);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Your Reservation";
-            this.button1.UseVisualStyleBackColor = false;
+            this.mainMenuTableAdapter1.ClearBeforeFill = true;
             // 
-            // LogoutPic
+            // pictureBox2
             // 
-            this.LogoutPic.Image = global::DiscussionRoomReservationSystem.Properties.Resources.notification;
-            this.LogoutPic.Location = new System.Drawing.Point(717, 12);
-            this.LogoutPic.Name = "LogoutPic";
-            this.LogoutPic.Size = new System.Drawing.Size(56, 50);
-            this.LogoutPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.LogoutPic.TabIndex = 8;
-            this.LogoutPic.TabStop = false;
-            this.LogoutPic.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::DiscussionRoomReservationSystem.Properties.Resources.undraw_Crypto_flowers_bjmo_removebg_preview;
+            this.pictureBox2.Location = new System.Drawing.Point(21, 24);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(131, 103);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 27;
+            this.pictureBox2.TabStop = false;
             // 
             // Frm04_StudentMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.LogoutPic);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.LoginBtn);
-            this.Controls.Add(this.DaphneGBox);
-            this.Controls.Add(this.CedarGBox);
-            this.Controls.Add(this.BlackThronGbox);
-            this.Controls.Add(this.AmberGBox);
-            this.Controls.Add(this.TitleLabl);
+            this.BackgroundImage = global::DiscussionRoomReservationSystem.Properties.Resources.bg_ioop;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(800, 500);
+            this.Controls.Add(this.CheckRButton);
+            this.Controls.Add(this.checkRoomComboBox);
+            this.Controls.Add(this.roomCheckDataGridView);
+            this.Controls.Add(this.welcomeLabel);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.YourRBtn);
+            this.Controls.Add(this.RoomRBtn);
+            this.Controls.Add(this.pictureBox2);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Frm04_StudentMain";
-            this.Text = "Student Main Menu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Frm04_StudentMain_Load);
-            this.AmberGBox.ResumeLayout(false);
-            this.AmberGBox.PerformLayout();
-            this.CedarGBox.ResumeLayout(false);
-            this.CedarGBox.PerformLayout();
-            this.DaphneGBox.ResumeLayout(false);
-            this.DaphneGBox.PerformLayout();
-            this.BlackThronGbox.ResumeLayout(false);
-            this.BlackThronGbox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.LogoutPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roomCheckDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainMenuBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userDatabaseDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainMenuDatabaseBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainMenuDatabase)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userDatabaseDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainMenuBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label TitleLabl;
-        private System.Windows.Forms.GroupBox AmberGBox;
-        private System.Windows.Forms.Label AmberMaxLbl;
-        private System.Windows.Forms.Label AmberRoomsLbl;
-        private System.Windows.Forms.ProgressBar AmberPBar;
-        private System.Windows.Forms.GroupBox CedarGBox;
-        private System.Windows.Forms.Label CedarMaxLbl;
-        private System.Windows.Forms.Label CedarRoomsLbl;
-        private System.Windows.Forms.ProgressBar CedarPBar;
-        private System.Windows.Forms.GroupBox DaphneGBox;
-        private System.Windows.Forms.Label DaphneMaxLbl;
-        private System.Windows.Forms.Label DaphneRoomsLbl;
-        private System.Windows.Forms.ProgressBar DaphonePBar;
-        private System.Windows.Forms.GroupBox BlackThronGbox;
-        private System.Windows.Forms.Label BlackThronMaxLbl;
-        private System.Windows.Forms.Label BlackThronRoomsLbl;
-        private System.Windows.Forms.ProgressBar BlackThronePBar;
-        private System.Windows.Forms.Button LoginBtn;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox LogoutPic;
+        private System.Windows.Forms.Button RoomRBtn;
+        private System.Windows.Forms.Button YourRBtn;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label welcomeLabel;
+        private System.Windows.Forms.DataGridView roomCheckDataGridView;
+        private System.Windows.Forms.BindingSource mainMenuDatabaseBindingSource;
+        private MainMenuDatabase mainMenuDatabase;
+        private System.Windows.Forms.ComboBox checkRoomComboBox;
+        private System.Windows.Forms.Button CheckRButton;
+        private UserDatabaseDataSet1 userDatabaseDataSet1;
+        private System.Windows.Forms.BindingSource mainMenuBindingSource;
+        private UserDatabaseDataSet1TableAdapters.MainMenuTableAdapter mainMenuTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn roomNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn startTimeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn endTimeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn statusDataGridViewTextBoxColumn;
+        private UserDatabaseDataSet2 userDatabaseDataSet2;
+        private System.Windows.Forms.BindingSource mainMenuBindingSource1;
+        private UserDatabaseDataSet2TableAdapters.MainMenuTableAdapter mainMenuTableAdapter1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
