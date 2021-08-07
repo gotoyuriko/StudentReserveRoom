@@ -6,12 +6,32 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-![Issues](https://img.shields.io/github/issues/gotoyuriko/IOOFI)
-![Forks](https://img.shields.io/github/forks/gotoyuriko/IOOFI)
-![Stargazers](https://img.shields.io/github/stars/gotoyuriko/IOOFI)
-![GNU V2.0 License](https://img.shields.io/github/license/gotoyuriko/IOOFI)
-![](https://img.shields.io/static/v1?label=<C#>&message=<C#>&color=<YELLOW>)
+_Social buttons_
 
+[![gotoyuriko - IOOFI](https://img.shields.io/static/v1?label=gotoyuriko&message=IOOFI&color=blue&logo=github)](https://github.com/gotoyuriko/IOOFI)
+[![stars - IOOFI](https://img.shields.io/github/stars/gotoyuriko/IOOFI?style=social)](https://github.com/gotoyuriko/IOOFI)
+[![forks - IOOFI](https://img.shields.io/github/forks/gotoyuriko/IOOFI?style=social)](https://github.com/gotoyuriko/IOOFI)
+
+_Repo metadata_
+
+
+[![GitHub tag](https://img.shields.io/github/tag/gotoyuriko/IOOFI?include_prereleases=&sort=semver)](https://github.com/gotoyuriko/IOOFI/releases/)
+[![License](https://img.shields.io/badge/License-GNU_2.0-blue)](#license)
+[![issues - IOOFI](https://img.shields.io/github/issues/gotoyuriko/IOOFI)](https://github.com/gotoyuriko/IOOFI/issues)
+
+_Call-to-Action buttons_
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/gotoyuriko/IOOFI/generate)
+
+
+
+</div>
+
+## License
+
+Released under [GNU 2.0](/LICENSE) by [@gotoyuriko](https://github.com/gotoyuriko).
 
 
 <!-- PROJECT LOGO -->
