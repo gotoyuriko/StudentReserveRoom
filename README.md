@@ -51,7 +51,7 @@ After the student menu, the admin menu will have 3 main form which consists of D
 **Contributors:**
 + @gotoyuriko Yuriko Goto
 + @Xavvyro Aurelio Darren Savero
-+ @
++ @christjandra15
 
 
 ### Built With 
@@ -64,13 +64,12 @@ After the student menu, the admin menu will have 3 main form which consists of D
 
 Go to the [link](https://visualstudio.microsoft.com/) and get **Visual Studio**.
 
-### Prerequisites
+### Installation
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Select
++ ASP.NET and web development
++ .NET desktop development
++ Data storage and processing
 
 ### Installation
 
