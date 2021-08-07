@@ -9,7 +9,7 @@
 ![Contributors](https://img.shields.io/github/issues/gotoyuriko/IOOFI)
 ![Forks](https://img.shields.io/github/forks/gotoyuriko/IOOFI)
 ![Stargazers](https://img.shields.io/github/stars/gotoyuriko/IOOFI)
-![GNU V2.0 License](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+![GNU V2.0 License](https://img.shields.io/github/license/gotoyuriko/IOOFI)
 
 
 
