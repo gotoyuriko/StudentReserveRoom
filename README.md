@@ -102,13 +102,6 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the GPL2.0 License. See [LICENSE](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) for more information.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
