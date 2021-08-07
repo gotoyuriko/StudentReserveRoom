@@ -6,11 +6,10 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors](https://img.shields.io/github/issues/gotoyuriko/IOOFI)
-[![Forks][forks-shield]][https://github.com/gotoyuriko/IOOFI/network/members]
-[![Stargazers][stars-shield]][https://github.com/gotoyuriko/IOOFI/stargazers]
-[![Issues][issues-shield]][https://github.com/gotoyuriko/IOOFI/issues]
-[![MIT License][license-shield]][https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html]
+![Contributors](https://img.shields.io/github/issues/gotoyuriko/IOOFI)
+![Forks](https://img.shields.io/github/forks/gotoyuriko/IOOFI)
+![Stargazers](https://img.shields.io/github/stars/gotoyuriko/IOOFI)
+![GNU V2.0 License](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 
 
