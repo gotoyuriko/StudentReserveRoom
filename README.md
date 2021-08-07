@@ -49,8 +49,8 @@ After registration, the students able to see the reserved room by them in the Yo
 After the student menu, the admin menu will have 3 main form which consists of Daily Report, Monthly Report, and Pending Request. The daily report will allow the admin to search a specific date and the search system will only display the requested date of the database and displayed in the data grid view. The system also works the same with the monthly room report but instead of a specific date it uses monthly search. The last menu is the pending request, which the admin able to approve and reject a certain room change request that has been made from the students. The system will approve the change if the requested change time and date is available. The system will automatically reject if the requested time and date have already been reserved or have an overlapping time with a certain reservation.
 
 **Contributors:**
-+ @gotoyuriko
-+ @
++ @gotoyuriko Yuriko Goto
++ @Xavvyro Aurelio Darren Savero
 + @
 
 
