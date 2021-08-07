@@ -19,19 +19,10 @@ _Repo metadata_
 [![License](https://img.shields.io/badge/License-GNU_2.0-blue)](#license)
 [![issues - IOOFI](https://img.shields.io/github/issues/gotoyuriko/IOOFI)](https://github.com/gotoyuriko/IOOFI/issues)
 
-_Call-to-Action buttons_
-
-<div align="center">
-
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/gotoyuriko/IOOFI/generate)
-
-
-
-</div>
 
 ## License
 
-Released under [GNU 2.0](/LICENSE) by [@gotoyuriko](https://github.com/gotoyuriko).
+Released under [GNU 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) by [@gotoyuriko](https://github.com/gotoyuriko).
 
 
 <!-- PROJECT LOGO -->
