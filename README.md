@@ -28,7 +28,7 @@ Released under [GNU 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.ht
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">Student Reservation Sysetm</h3>
+  <h3 align="center">Discussion Room Student Reservation Sysetm</h3>
 
   <p align="center">
     Visual Studio Windows Form Application
