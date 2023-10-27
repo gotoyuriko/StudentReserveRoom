@@ -106,5 +106,3 @@ Contributions are what make the open source community such an amazing place to b
 ## Contact
 
 Yuriko Goto - email: gotoyuriko95@gmail.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
